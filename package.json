@@ -1,0 +1,38 @@
+{
+  "name": "heroaxes",
+  "version": "0.3.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "catalog:export": "node scripts/export-editorial.mjs",
+    "catalog:check": "node scripts/export-editorial.mjs --check",
+    "test:e2e": "playwright test",
+    "audit:results": "node scripts/audit-results.mjs",
+    "audit:check": "node scripts/audit-results.mjs --check"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@tailwindcss/turbopack": "4.3.3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.6",
+    "tailwindcss": "4.3.3",
+    "typescript": "^5"
+  },
+  "type": "module"
+}

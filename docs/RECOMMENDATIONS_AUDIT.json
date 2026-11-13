@@ -1,0 +1,1056 @@
+{
+  "catalogVersion": "marvel-stories-1.0.0",
+  "engineVersion": "shared-evidence-1.0.0",
+  "counts": {
+    "works": 50,
+    "confirmed": 49,
+    "evidence": 64,
+    "sources": 53,
+    "characters": 24,
+    "pending": 17
+  },
+  "coverage": [
+    {
+      "id": "iron-man",
+      "works": [
+        "armor-wars",
+        "prime"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": "armor-wars"
+        },
+        {
+          "slot": "comic-2",
+          "work": "prime"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": "armor-wars"
+        },
+        {
+          "slot": "comic-2",
+          "work": "prime"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ]
+    },
+    {
+      "id": "captain-america",
+      "works": [
+        "prime",
+        "winter-soldier",
+        "winter-film"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "winter-film"
+        },
+        {
+          "slot": "comic-1",
+          "work": "winter-soldier"
+        },
+        {
+          "slot": "comic-2",
+          "work": "prime"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "winter-film"
+        },
+        {
+          "slot": "comic-1",
+          "work": "winter-soldier"
+        },
+        {
+          "slot": "comic-2",
+          "work": "prime"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ]
+    },
+    {
+      "id": "spider-man",
+      "works": [
+        "spider-astronauts",
+        "spider-master-planner"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": "spider-astronauts"
+        },
+        {
+          "slot": "comic-2",
+          "work": "spider-master-planner"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": "spider-astronauts"
+        },
+        {
+          "slot": "comic-2",
+          "work": "spider-master-planner"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ]
+    },
+    {
+      "id": "thor",
+      "works": [
+        "prime",
+        "wolves-north",
+        "ragnarok-film"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "ragnarok-film"
+        },
+        {
+          "slot": "comic-1",
+          "work": "prime"
+        },
+        {
+          "slot": "comic-2",
+          "work": "wolves-north"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "ragnarok-film"
+        },
+        {
+          "slot": "comic-1",
+          "work": "prime"
+        },
+        {
+          "slot": "comic-2",
+          "work": "wolves-north"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ]
+    },
+    {
+      "id": "hulk",
+      "works": [
+        "planet-hulk",
+        "world-war-hulk",
+        "ragnarok-film"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "ragnarok-film"
+        },
+        {
+          "slot": "comic-1",
+          "work": "world-war-hulk"
+        },
+        {
+          "slot": "comic-2",
+          "work": "planet-hulk"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "ragnarok-film"
+        },
+        {
+          "slot": "comic-1",
+          "work": "world-war-hulk"
+        },
+        {
+          "slot": "comic-2",
+          "work": "planet-hulk"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ]
+    },
+    {
+      "id": "doctor-strange",
+      "works": [
+        "oath",
+        "triumph",
+        "strange-film"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "strange-film"
+        },
+        {
+          "slot": "comic-1",
+          "work": "oath"
+        },
+        {
+          "slot": "comic-2",
+          "work": "triumph"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "strange-film"
+        },
+        {
+          "slot": "comic-1",
+          "work": "oath"
+        },
+        {
+          "slot": "comic-2",
+          "work": "triumph"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ]
+    },
+    {
+      "id": "black-panther",
+      "works": [
+        "panther-enemy",
+        "panther-priest",
+        "panther-film"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "panther-film"
+        },
+        {
+          "slot": "comic-1",
+          "work": "panther-priest"
+        },
+        {
+          "slot": "comic-2",
+          "work": null
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "panther-film"
+        },
+        {
+          "slot": "comic-1",
+          "work": "panther-priest"
+        },
+        {
+          "slot": "comic-2",
+          "work": null
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ]
+    },
+    {
+      "id": "black-widow",
+      "works": [
+        "widow-thread",
+        "widow-identity",
+        "winter-film"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "winter-film"
+        },
+        {
+          "slot": "comic-1",
+          "work": "widow-identity"
+        },
+        {
+          "slot": "comic-2",
+          "work": "widow-thread"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "winter-film"
+        },
+        {
+          "slot": "comic-1",
+          "work": "widow-identity"
+        },
+        {
+          "slot": "comic-2",
+          "work": "widow-thread"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ]
+    },
+    {
+      "id": "hawkeye",
+      "works": [
+        "hawkeye-weapon",
+        "tales100",
+        "hawkeye-tv"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "hawkeye-tv"
+        },
+        {
+          "slot": "comic-1",
+          "work": "hawkeye-weapon"
+        },
+        {
+          "slot": "comic-2",
+          "work": null
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "hawkeye-tv"
+        },
+        {
+          "slot": "comic-1",
+          "work": "hawkeye-weapon"
+        },
+        {
+          "slot": "comic-2",
+          "work": "tales100"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ]
+    },
+    {
+      "id": "scarlet-witch",
+      "works": [
+        "witches-road",
+        "last-door",
+        "avengers16",
+        "wandavision"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": "last-door"
+        },
+        {
+          "slot": "comic-2",
+          "work": "witches-road"
+        },
+        {
+          "slot": "alternative",
+          "work": "avengers16"
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "wandavision"
+        },
+        {
+          "slot": "comic-1",
+          "work": "witches-road"
+        },
+        {
+          "slot": "comic-2",
+          "work": "avengers16"
+        },
+        {
+          "slot": "alternative",
+          "work": "last-door"
+        }
+      ]
+    },
+    {
+      "id": "wolverine",
+      "works": [
+        "wolverine-japan",
+        "age-ultron",
+        "logan-film"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "logan-film"
+        },
+        {
+          "slot": "comic-1",
+          "work": "age-ultron"
+        },
+        {
+          "slot": "comic-2",
+          "work": "wolverine-japan"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "logan-film"
+        },
+        {
+          "slot": "comic-1",
+          "work": "age-ultron"
+        },
+        {
+          "slot": "comic-2",
+          "work": "wolverine-japan"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ]
+    },
+    {
+      "id": "daredevil",
+      "works": [
+        "guardian-devil",
+        "daredevil-tv"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "daredevil-tv"
+        },
+        {
+          "slot": "comic-1",
+          "work": null
+        },
+        {
+          "slot": "comic-2",
+          "work": null
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "daredevil-tv"
+        },
+        {
+          "slot": "comic-1",
+          "work": "guardian-devil"
+        },
+        {
+          "slot": "comic-2",
+          "work": null
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ]
+    },
+    {
+      "id": "doctor-doom",
+      "works": [
+        "triumph",
+        "one-world-doom"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": "one-world-doom"
+        },
+        {
+          "slot": "comic-2",
+          "work": "triumph"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": "one-world-doom"
+        },
+        {
+          "slot": "comic-2",
+          "work": "triumph"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ]
+    },
+    {
+      "id": "thanos",
+      "works": [
+        "infinity-gauntlet",
+        "thanos-quest"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": "thanos-quest"
+        },
+        {
+          "slot": "comic-2",
+          "work": null
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": "infinity-gauntlet"
+        },
+        {
+          "slot": "comic-2",
+          "work": "thanos-quest"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ]
+    },
+    {
+      "id": "ultron",
+      "works": [
+        "age-ultron",
+        "ultron-imperative",
+        "age-film"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "age-film"
+        },
+        {
+          "slot": "comic-1",
+          "work": "age-ultron"
+        },
+        {
+          "slot": "comic-2",
+          "work": "ultron-imperative"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "age-film"
+        },
+        {
+          "slot": "comic-1",
+          "work": "age-ultron"
+        },
+        {
+          "slot": "comic-2",
+          "work": "ultron-imperative"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ]
+    },
+    {
+      "id": "loki",
+      "works": [
+        "loki-asgard"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": null
+        },
+        {
+          "slot": "comic-2",
+          "work": null
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": "loki-asgard"
+        },
+        {
+          "slot": "comic-2",
+          "work": null
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ]
+    },
+    {
+      "id": "magneto",
+      "works": [
+        "magneto-solo",
+        "magneto-rex"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": "magneto-rex"
+        },
+        {
+          "slot": "comic-2",
+          "work": "magneto-solo"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": "magneto-rex"
+        },
+        {
+          "slot": "comic-2",
+          "work": "magneto-solo"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ]
+    },
+    {
+      "id": "red-skull",
+      "works": [
+        "redskull-cube",
+        "redskull-preparation"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": "redskull-cube"
+        },
+        {
+          "slot": "comic-2",
+          "work": "redskull-preparation"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": "redskull-cube"
+        },
+        {
+          "slot": "comic-2",
+          "work": "redskull-preparation"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ]
+    },
+    {
+      "id": "green-goblin",
+      "works": [
+        "dark-avengers",
+        "siege"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": "dark-avengers"
+        },
+        {
+          "slot": "comic-2",
+          "work": "siege"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": "dark-avengers"
+        },
+        {
+          "slot": "comic-2",
+          "work": "siege"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ]
+    },
+    {
+      "id": "kingpin",
+      "works": [
+        "born-again",
+        "devils-reign",
+        "daredevil-tv"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "daredevil-tv"
+        },
+        {
+          "slot": "comic-1",
+          "work": "devils-reign"
+        },
+        {
+          "slot": "comic-2",
+          "work": null
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "daredevil-tv"
+        },
+        {
+          "slot": "comic-1",
+          "work": "devils-reign"
+        },
+        {
+          "slot": "comic-2",
+          "work": "born-again"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ]
+    },
+    {
+      "id": "kang",
+      "works": [
+        "kang-origin",
+        "kang-moonknight"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": "kang-moonknight"
+        },
+        {
+          "slot": "comic-2",
+          "work": "kang-origin"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": "kang-moonknight"
+        },
+        {
+          "slot": "comic-2",
+          "work": "kang-origin"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ]
+    },
+    {
+      "id": "hela",
+      "works": [
+        "wolves-north",
+        "ragnarok-film"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": "wolves-north"
+        },
+        {
+          "slot": "comic-2",
+          "work": null
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": "ragnarok-film"
+        },
+        {
+          "slot": "comic-1",
+          "work": "wolves-north"
+        },
+        {
+          "slot": "comic-2",
+          "work": null
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ]
+    },
+    {
+      "id": "mysterio",
+      "works": [
+        "mysterio13"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": "mysterio13"
+        },
+        {
+          "slot": "comic-2",
+          "work": null
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": "mysterio13"
+        },
+        {
+          "slot": "comic-2",
+          "work": null
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ]
+    },
+    {
+      "id": "killmonger",
+      "works": [
+        "killmonger-origin",
+        "panthers-rage"
+      ],
+      "withoutSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": "killmonger-origin"
+        },
+        {
+          "slot": "comic-2",
+          "work": "panthers-rage"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ],
+      "withSpoilers": [
+        {
+          "slot": "audiovisual",
+          "work": null
+        },
+        {
+          "slot": "comic-1",
+          "work": "killmonger-origin"
+        },
+        {
+          "slot": "comic-2",
+          "work": "panthers-rage"
+        },
+        {
+          "slot": "alternative",
+          "work": null
+        }
+      ]
+    }
+  ]
+}

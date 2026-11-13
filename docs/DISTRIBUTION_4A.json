@@ -1,0 +1,1130 @@
+{
+  "methodology": "4096 pontos Halton por protocolo/modo. Alternativas independentes por item versus traço uniforme por eixo, sintetizado na resolução realizável. Contagens fracionadas em empates. Ablação omite uma coordenada apenas na auditoria, sem alterar matching de produção.",
+  "questionStructure": [
+    {
+      "axis": "strategy",
+      "items": [
+        {
+          "id": "strategy-1",
+          "weight": 1,
+          "polarity": 1
+        },
+        {
+          "id": "strategy-2",
+          "weight": 1,
+          "polarity": -1
+        },
+        {
+          "id": "strategy-3",
+          "weight": 1,
+          "polarity": 1
+        },
+        {
+          "id": "strategy-4",
+          "weight": 1,
+          "polarity": -1
+        },
+        {
+          "id": "strategy-5",
+          "weight": 1,
+          "polarity": 1
+        }
+      ]
+    },
+    {
+      "axis": "empathy",
+      "items": [
+        {
+          "id": "empathy-1",
+          "weight": 1,
+          "polarity": 1
+        },
+        {
+          "id": "empathy-2",
+          "weight": 1,
+          "polarity": -1
+        },
+        {
+          "id": "empathy-3",
+          "weight": 1,
+          "polarity": 1
+        },
+        {
+          "id": "empathy-4",
+          "weight": 1,
+          "polarity": -1
+        },
+        {
+          "id": "empathy-5",
+          "weight": 1,
+          "polarity": 1
+        }
+      ]
+    },
+    {
+      "axis": "autonomy",
+      "items": [
+        {
+          "id": "autonomy-1",
+          "weight": 1,
+          "polarity": 1
+        },
+        {
+          "id": "autonomy-2",
+          "weight": 1,
+          "polarity": -1
+        },
+        {
+          "id": "autonomy-3",
+          "weight": 1,
+          "polarity": 1
+        },
+        {
+          "id": "autonomy-4",
+          "weight": 1,
+          "polarity": -1
+        },
+        {
+          "id": "autonomy-5",
+          "weight": 1,
+          "polarity": 1
+        }
+      ]
+    },
+    {
+      "axis": "impulsivity",
+      "items": [
+        {
+          "id": "impulsivity-1",
+          "weight": 1,
+          "polarity": 1
+        },
+        {
+          "id": "impulsivity-2",
+          "weight": 1,
+          "polarity": -1
+        },
+        {
+          "id": "impulsivity-3",
+          "weight": 1,
+          "polarity": 1
+        },
+        {
+          "id": "impulsivity-4",
+          "weight": 1,
+          "polarity": -1
+        },
+        {
+          "id": "impulsivity-5",
+          "weight": 1,
+          "polarity": 1
+        }
+      ]
+    },
+    {
+      "axis": "dominance",
+      "items": [
+        {
+          "id": "dominance-1",
+          "weight": 1,
+          "polarity": 1
+        },
+        {
+          "id": "dominance-2",
+          "weight": 1,
+          "polarity": -1
+        },
+        {
+          "id": "dominance-3",
+          "weight": 1,
+          "polarity": 1
+        },
+        {
+          "id": "dominance-4",
+          "weight": 1,
+          "polarity": -1
+        },
+        {
+          "id": "dominance-5",
+          "weight": 1,
+          "polarity": 1
+        }
+      ]
+    },
+    {
+      "axis": "cooperation",
+      "items": [
+        {
+          "id": "cooperation-1",
+          "weight": 1,
+          "polarity": 1
+        },
+        {
+          "id": "cooperation-2",
+          "weight": 1,
+          "polarity": -1
+        },
+        {
+          "id": "cooperation-3",
+          "weight": 1,
+          "polarity": 1
+        },
+        {
+          "id": "cooperation-4",
+          "weight": 1,
+          "polarity": -1
+        },
+        {
+          "id": "cooperation-5",
+          "weight": 1,
+          "polarity": 1
+        }
+      ]
+    },
+    {
+      "axis": "risk",
+      "items": [
+        {
+          "id": "risk-1",
+          "weight": 1,
+          "polarity": 1
+        },
+        {
+          "id": "risk-2",
+          "weight": 1,
+          "polarity": -1
+        },
+        {
+          "id": "risk-3",
+          "weight": 1,
+          "polarity": 1
+        },
+        {
+          "id": "risk-4",
+          "weight": 1,
+          "polarity": -1
+        },
+        {
+          "id": "risk-5",
+          "weight": 1,
+          "polarity": 1
+        }
+      ]
+    },
+    {
+      "axis": "flexibility",
+      "items": [
+        {
+          "id": "flexibility-1",
+          "weight": 1,
+          "polarity": 1
+        },
+        {
+          "id": "flexibility-2",
+          "weight": 1,
+          "polarity": -1
+        },
+        {
+          "id": "flexibility-3",
+          "weight": 1,
+          "polarity": 1
+        },
+        {
+          "id": "flexibility-4",
+          "weight": 1,
+          "polarity": -1
+        },
+        {
+          "id": "flexibility-5",
+          "weight": 1,
+          "polarity": 1
+        }
+      ]
+    }
+  ],
+  "experiments": [
+    {
+      "mode": "quick",
+      "input": "independent-items",
+      "samples": 4096,
+      "moments": [
+        {
+          "axis": "strategy",
+          "mean": 50.0762939453125,
+          "sd": 25.014375301301797
+        },
+        {
+          "axis": "empathy",
+          "mean": 50.06103515625,
+          "sd": 25.0182293948523
+        },
+        {
+          "axis": "autonomy",
+          "mean": 50.091552734375,
+          "sd": 25.025759032787416
+        },
+        {
+          "axis": "impulsivity",
+          "mean": 50.0274658203125,
+          "sd": 24.96715694276174
+        },
+        {
+          "axis": "dominance",
+          "mean": 50.054931640625,
+          "sd": 25.002991229160628
+        },
+        {
+          "axis": "cooperation",
+          "mean": 50.079345703125,
+          "sd": 25.03646857979167
+        },
+        {
+          "axis": "risk",
+          "mean": 50.06103515625,
+          "sd": 25.022803277998033
+        },
+        {
+          "axis": "flexibility",
+          "mean": 50.08544921875,
+          "sd": 24.963205798605173
+        }
+      ],
+      "shares": {
+        "iron-man": 31.5,
+        "captain-america": 118,
+        "spider-man": 83.5,
+        "thor": 290.5,
+        "hulk": 315.5,
+        "doctor-strange": 67,
+        "black-panther": 163,
+        "black-widow": 164,
+        "hawkeye": 34,
+        "scarlet-witch": 1179.5,
+        "wolverine": 177.5,
+        "daredevil": 193,
+        "doctor-doom": 0,
+        "thanos": 12,
+        "ultron": 2,
+        "loki": 23.5,
+        "magneto": 61.5,
+        "red-skull": 24,
+        "green-goblin": 16,
+        "kingpin": 167,
+        "kang": 6,
+        "hela": 406,
+        "mysterio": 518,
+        "killmonger": 43
+      },
+      "withoutAxis": [
+        {
+          "axis": "strategy",
+          "wandaPercent": 15.51513671875
+        },
+        {
+          "axis": "empathy",
+          "wandaPercent": 36.68212890625
+        },
+        {
+          "axis": "autonomy",
+          "wandaPercent": 22.71728515625
+        },
+        {
+          "axis": "impulsivity",
+          "wandaPercent": 27.64892578125
+        },
+        {
+          "axis": "dominance",
+          "wandaPercent": 26.399739583333332
+        },
+        {
+          "axis": "cooperation",
+          "wandaPercent": 29.459635416666668
+        },
+        {
+          "axis": "risk",
+          "wandaPercent": 14.7216796875
+        },
+        {
+          "axis": "flexibility",
+          "wandaPercent": 29.13818359375
+        }
+      ]
+    },
+    {
+      "mode": "quick",
+      "input": "uniform-profiles",
+      "samples": 4096,
+      "moments": [
+        {
+          "axis": "strategy",
+          "mean": 50,
+          "sd": 29.315098498896436
+        },
+        {
+          "axis": "empathy",
+          "mean": 49.9542236328125,
+          "sd": 29.310507940252645
+        },
+        {
+          "axis": "autonomy",
+          "mean": 49.93896484375,
+          "sd": 29.313733654456048
+        },
+        {
+          "axis": "impulsivity",
+          "mean": 49.932861328125,
+          "sd": 29.307212912982084
+        },
+        {
+          "axis": "dominance",
+          "mean": 49.9237060546875,
+          "sd": 29.31304723695474
+        },
+        {
+          "axis": "cooperation",
+          "mean": 49.9267578125,
+          "sd": 29.32021165276984
+        },
+        {
+          "axis": "risk",
+          "mean": 49.93896484375,
+          "sd": 29.315034960062754
+        },
+        {
+          "axis": "flexibility",
+          "mean": 49.8443603515625,
+          "sd": 29.30752735391738
+        }
+      ],
+      "shares": {
+        "iron-man": 44,
+        "captain-america": 151,
+        "spider-man": 120,
+        "thor": 305,
+        "hulk": 373,
+        "doctor-strange": 78,
+        "black-panther": 170.5,
+        "black-widow": 196,
+        "hawkeye": 66,
+        "scarlet-witch": 875,
+        "wolverine": 192.5,
+        "daredevil": 203.5,
+        "doctor-doom": 2,
+        "thanos": 13,
+        "ultron": 3,
+        "loki": 24,
+        "magneto": 55.5,
+        "red-skull": 43.5,
+        "green-goblin": 29,
+        "kingpin": 211,
+        "kang": 8,
+        "hela": 396.5,
+        "mysterio": 489.5,
+        "killmonger": 46.5
+      },
+      "withoutAxis": [
+        {
+          "axis": "strategy",
+          "wandaPercent": 10.693359375
+        },
+        {
+          "axis": "empathy",
+          "wandaPercent": 26.6845703125
+        },
+        {
+          "axis": "autonomy",
+          "wandaPercent": 17.236328125
+        },
+        {
+          "axis": "impulsivity",
+          "wandaPercent": 20.22705078125
+        },
+        {
+          "axis": "dominance",
+          "wandaPercent": 20.86181640625
+        },
+        {
+          "axis": "cooperation",
+          "wandaPercent": 21.630859375
+        },
+        {
+          "axis": "risk",
+          "wandaPercent": 10.8642578125
+        },
+        {
+          "axis": "flexibility",
+          "wandaPercent": 21.93603515625
+        }
+      ]
+    },
+    {
+      "mode": "full",
+      "input": "independent-items",
+      "samples": 4096,
+      "moments": [
+        {
+          "axis": "strategy",
+          "mean": 49.98291015625,
+          "sd": 15.708750575904839
+        },
+        {
+          "axis": "empathy",
+          "mean": 49.962158203125,
+          "sd": 15.819254474817525
+        },
+        {
+          "axis": "autonomy",
+          "mean": 49.94873046875,
+          "sd": 15.792378760146155
+        },
+        {
+          "axis": "impulsivity",
+          "mean": 49.95849609375,
+          "sd": 15.854509293124337
+        },
+        {
+          "axis": "dominance",
+          "mean": 50.0146484375,
+          "sd": 15.778148837420023
+        },
+        {
+          "axis": "cooperation",
+          "mean": 49.974365234375,
+          "sd": 15.668473181620676
+        },
+        {
+          "axis": "risk",
+          "mean": 49.8681640625,
+          "sd": 16.295974691947194
+        },
+        {
+          "axis": "flexibility",
+          "mean": 49.942626953125,
+          "sd": 15.974692489383552
+        }
+      ],
+      "shares": {
+        "iron-man": 26.5,
+        "captain-america": 31,
+        "spider-man": 12.5,
+        "thor": 216.83333333333331,
+        "hulk": 137,
+        "doctor-strange": 36.5,
+        "black-panther": 92.5,
+        "black-widow": 97,
+        "hawkeye": 2,
+        "scarlet-witch": 2177.3333333333335,
+        "wolverine": 139.83333333333331,
+        "daredevil": 119.5,
+        "doctor-doom": 0,
+        "thanos": 0,
+        "ultron": 0,
+        "loki": 7.5,
+        "magneto": 48.5,
+        "red-skull": 4,
+        "green-goblin": 0,
+        "kingpin": 134,
+        "kang": 0,
+        "hela": 313,
+        "mysterio": 478,
+        "killmonger": 22.5
+      },
+      "withoutAxis": [
+        {
+          "axis": "strategy",
+          "wandaPercent": 28.662109375
+        },
+        {
+          "axis": "empathy",
+          "wandaPercent": 66.845703125
+        },
+        {
+          "axis": "autonomy",
+          "wandaPercent": 39.15608723958333
+        },
+        {
+          "axis": "impulsivity",
+          "wandaPercent": 48.7060546875
+        },
+        {
+          "axis": "dominance",
+          "wandaPercent": 46.028645833333336
+        },
+        {
+          "axis": "cooperation",
+          "wandaPercent": 50.634765625
+        },
+        {
+          "axis": "risk",
+          "wandaPercent": 26.399739583333336
+        },
+        {
+          "axis": "flexibility",
+          "wandaPercent": 48.3642578125
+        }
+      ]
+    },
+    {
+      "mode": "full",
+      "input": "uniform-profiles",
+      "samples": 4096,
+      "moments": [
+        {
+          "axis": "strategy",
+          "mean": 49.990234375,
+          "sd": 28.940434218538748
+        },
+        {
+          "axis": "empathy",
+          "mean": 49.954833984375,
+          "sd": 28.934178418164176
+        },
+        {
+          "axis": "autonomy",
+          "mean": 49.935302734375,
+          "sd": 28.9299221281694
+        },
+        {
+          "axis": "impulsivity",
+          "mean": 49.93408203125,
+          "sd": 28.94500021823969
+        },
+        {
+          "axis": "dominance",
+          "mean": 49.923095703125,
+          "sd": 28.939384620504583
+        },
+        {
+          "axis": "cooperation",
+          "mean": 49.921875,
+          "sd": 28.94265022338357
+        },
+        {
+          "axis": "risk",
+          "mean": 49.942626953125,
+          "sd": 28.933312995777328
+        },
+        {
+          "axis": "flexibility",
+          "mean": 49.84375,
+          "sd": 28.939170443146775
+        }
+      ],
+      "shares": {
+        "iron-man": 40.5,
+        "captain-america": 137.5,
+        "spider-man": 110.5,
+        "thor": 315.5,
+        "hulk": 372,
+        "doctor-strange": 81,
+        "black-panther": 176.5,
+        "black-widow": 189.5,
+        "hawkeye": 69,
+        "scarlet-witch": 908.5,
+        "wolverine": 185,
+        "daredevil": 210,
+        "doctor-doom": 2,
+        "thanos": 12.5,
+        "ultron": 2,
+        "loki": 27,
+        "magneto": 53.5,
+        "red-skull": 39,
+        "green-goblin": 31,
+        "kingpin": 194,
+        "kang": 12,
+        "hela": 400,
+        "mysterio": 475.5,
+        "killmonger": 52
+      },
+      "withoutAxis": [
+        {
+          "axis": "strategy",
+          "wandaPercent": 10.99853515625
+        },
+        {
+          "axis": "empathy",
+          "wandaPercent": 27.23388671875
+        },
+        {
+          "axis": "autonomy",
+          "wandaPercent": 17.399088541666664
+        },
+        {
+          "axis": "impulsivity",
+          "wandaPercent": 20.21484375
+        },
+        {
+          "axis": "dominance",
+          "wandaPercent": 21.3134765625
+        },
+        {
+          "axis": "cooperation",
+          "wandaPercent": 22.36328125
+        },
+        {
+          "axis": "risk",
+          "wandaPercent": 11.29150390625
+        },
+        {
+          "axis": "flexibility",
+          "wandaPercent": 21.875
+        }
+      ]
+    }
+  ],
+  "neutral": {
+    "ranking": [
+      {
+        "id": "scarlet-witch",
+        "compatibility": 77.92059783418038
+      },
+      {
+        "id": "thor",
+        "compatibility": 74.1397989180285
+      },
+      {
+        "id": "wolverine",
+        "compatibility": 73.19048676309097
+      },
+      {
+        "id": "daredevil",
+        "compatibility": 72.72821971341071
+      },
+      {
+        "id": "mysterio",
+        "compatibility": 72.38659745703185
+      },
+      {
+        "id": "hawkeye",
+        "compatibility": 72.21736153638392
+      },
+      {
+        "id": "iron-man",
+        "compatibility": 72.21736153638392
+      },
+      {
+        "id": "magneto",
+        "compatibility": 71.27718676730986
+      },
+      {
+        "id": "black-widow",
+        "compatibility": 71.22283891694666
+      },
+      {
+        "id": "spider-man",
+        "compatibility": 70.63164968882317
+      },
+      {
+        "id": "doctor-strange",
+        "compatibility": 70.57849426015045
+      },
+      {
+        "id": "black-panther",
+        "compatibility": 70.26155686657421
+      },
+      {
+        "id": "hela",
+        "compatibility": 70
+      },
+      {
+        "id": "captain-america",
+        "compatibility": 69.5861873485089
+      },
+      {
+        "id": "kingpin",
+        "compatibility": 69.5861873485089
+      },
+      {
+        "id": "loki",
+        "compatibility": 69.53485598261514
+      },
+      {
+        "id": "killmonger",
+        "compatibility": 69.38137821521028
+      },
+      {
+        "id": "hulk",
+        "compatibility": 68.1311280400451
+      },
+      {
+        "id": "doctor-doom",
+        "compatibility": 65.93572252344107
+      },
+      {
+        "id": "red-skull",
+        "compatibility": 63.642401069377534
+      },
+      {
+        "id": "ultron",
+        "compatibility": 63.0879423494165
+      },
+      {
+        "id": "green-goblin",
+        "compatibility": 62.79280983465696
+      },
+      {
+        "id": "kang",
+        "compatibility": 62.744127979605686
+      },
+      {
+        "id": "thanos",
+        "compatibility": 62.70891527455925
+      }
+    ],
+    "interpretation": {
+      "primary": {
+        "character": {
+          "id": "scarlet-witch",
+          "name": "Feiticeira Escarlate",
+          "publisher": "Marvel",
+          "continuity": "Marvel Comics, Terra-616; síntese editorial de caracterizações recorrentes, não um estado atual ou versão do MCU.",
+          "classification": "herói",
+          "editorialNote": "Wanda Maximoff em fase de reparação; crises e coerção não definem todas as suas aparições.",
+          "profile": {
+            "strategy": 55,
+            "empathy": 85,
+            "autonomy": 80,
+            "impulsivity": 65,
+            "dominance": 40,
+            "cooperation": 70,
+            "risk": 75,
+            "flexibility": 70
+          },
+          "rationale": {
+            "strategy": "Planejamento variável",
+            "empathy": "Laços afetivos intensos",
+            "autonomy": "Busca autodeterminação",
+            "impulsivity": "Emoções aceleram ações",
+            "dominance": "Não procura domínio permanente",
+            "cooperation": "Busca pertencimento",
+            "risk": "Tolera incerteza elevada",
+            "flexibility": "Reconstrói suas formas de agir"
+          },
+          "source": "https://www.marvel.com/characters/scarlet-witch-wanda-maximoff/in-comics"
+        },
+        "axes": [
+          {
+            "id": "strategy",
+            "label": "Planejamento",
+            "low": "Decisão no momento",
+            "high": "Preparação antecipada",
+            "order": 0,
+            "user": 50,
+            "character": 55,
+            "delta": -5,
+            "contribution": 3.125,
+            "explanation": "Planejamento: você 50.0/100 (Equilíbrio entre os dois polos); Feiticeira Escarlate 55.0/100. Diferença: 5.0 pontos. No recorte editorial do personagem: Planejamento variável."
+          },
+          {
+            "id": "empathy",
+            "label": "Empatia",
+            "low": "Distanciamento afetivo",
+            "high": "Atenção à experiência alheia",
+            "order": 1,
+            "user": 50,
+            "character": 85,
+            "delta": -35,
+            "contribution": 153.125,
+            "explanation": "Empatia: você 50.0/100 (Equilíbrio entre os dois polos); Feiticeira Escarlate 85.0/100. Diferença: 35.0 pontos. No recorte editorial do personagem: Laços afetivos intensos."
+          },
+          {
+            "id": "autonomy",
+            "label": "Autonomia",
+            "low": "Busca de orientação",
+            "high": "Direção própria",
+            "order": 2,
+            "user": 50,
+            "character": 80,
+            "delta": -30,
+            "contribution": 112.5,
+            "explanation": "Autonomia: você 50.0/100 (Equilíbrio entre os dois polos); Feiticeira Escarlate 80.0/100. Diferença: 30.0 pontos. No recorte editorial do personagem: Busca autodeterminação."
+          },
+          {
+            "id": "impulsivity",
+            "label": "Impulsividade",
+            "low": "Pausa antes de reagir",
+            "high": "Reação imediata",
+            "order": 3,
+            "user": 50,
+            "character": 65,
+            "delta": -15,
+            "contribution": 28.125,
+            "explanation": "Impulsividade: você 50.0/100 (Equilíbrio entre os dois polos); Feiticeira Escarlate 65.0/100. Diferença: 15.0 pontos. No recorte editorial do personagem: Emoções aceleram ações."
+          },
+          {
+            "id": "dominance",
+            "label": "Centralização",
+            "low": "Decisão distribuída",
+            "high": "Controle concentrado",
+            "order": 4,
+            "user": 50,
+            "character": 40,
+            "delta": 10,
+            "contribution": 12.5,
+            "explanation": "Centralização: você 50.0/100 (Equilíbrio entre os dois polos); Feiticeira Escarlate 40.0/100. Diferença: 10.0 pontos. No recorte editorial do personagem: Não procura domínio permanente."
+          },
+          {
+            "id": "cooperation",
+            "label": "Cooperação",
+            "low": "Trabalho individual",
+            "high": "Trabalho interdependente",
+            "order": 5,
+            "user": 50,
+            "character": 70,
+            "delta": -20,
+            "contribution": 50,
+            "explanation": "Cooperação: você 50.0/100 (Equilíbrio entre os dois polos); Feiticeira Escarlate 70.0/100. Diferença: 20.0 pontos. No recorte editorial do personagem: Busca pertencimento."
+          },
+          {
+            "id": "risk",
+            "label": "Tolerância ao risco",
+            "low": "Preferência por previsibilidade",
+            "high": "Aceitação de incerteza",
+            "order": 6,
+            "user": 50,
+            "character": 75,
+            "delta": -25,
+            "contribution": 78.125,
+            "explanation": "Tolerância ao risco: você 50.0/100 (Equilíbrio entre os dois polos); Feiticeira Escarlate 75.0/100. Diferença: 25.0 pontos. No recorte editorial do personagem: Tolera incerteza elevada."
+          },
+          {
+            "id": "flexibility",
+            "label": "Flexibilidade",
+            "low": "Persistência no método",
+            "high": "Revisão do método",
+            "order": 7,
+            "user": 50,
+            "character": 70,
+            "delta": -20,
+            "contribution": 50,
+            "explanation": "Flexibilidade: você 50.0/100 (Equilíbrio entre os dois polos); Feiticeira Escarlate 70.0/100. Diferença: 20.0 pontos. No recorte editorial do personagem: Reconstrói suas formas de agir."
+          }
+        ],
+        "similarities": [
+          {
+            "id": "strategy",
+            "label": "Planejamento",
+            "low": "Decisão no momento",
+            "high": "Preparação antecipada",
+            "order": 0,
+            "user": 50,
+            "character": 55,
+            "delta": -5,
+            "contribution": 3.125,
+            "explanation": "Planejamento: você 50.0/100 (Equilíbrio entre os dois polos); Feiticeira Escarlate 55.0/100. Diferença: 5.0 pontos. No recorte editorial do personagem: Planejamento variável."
+          },
+          {
+            "id": "dominance",
+            "label": "Centralização",
+            "low": "Decisão distribuída",
+            "high": "Controle concentrado",
+            "order": 4,
+            "user": 50,
+            "character": 40,
+            "delta": 10,
+            "contribution": 12.5,
+            "explanation": "Centralização: você 50.0/100 (Equilíbrio entre os dois polos); Feiticeira Escarlate 40.0/100. Diferença: 10.0 pontos. No recorte editorial do personagem: Não procura domínio permanente."
+          },
+          {
+            "id": "impulsivity",
+            "label": "Impulsividade",
+            "low": "Pausa antes de reagir",
+            "high": "Reação imediata",
+            "order": 3,
+            "user": 50,
+            "character": 65,
+            "delta": -15,
+            "contribution": 28.125,
+            "explanation": "Impulsividade: você 50.0/100 (Equilíbrio entre os dois polos); Feiticeira Escarlate 65.0/100. Diferença: 15.0 pontos. No recorte editorial do personagem: Emoções aceleram ações."
+          }
+        ],
+        "differences": [
+          {
+            "id": "empathy",
+            "label": "Empatia",
+            "low": "Distanciamento afetivo",
+            "high": "Atenção à experiência alheia",
+            "order": 1,
+            "user": 50,
+            "character": 85,
+            "delta": -35,
+            "contribution": 153.125,
+            "explanation": "Empatia: você 50.0/100 (Equilíbrio entre os dois polos); Feiticeira Escarlate 85.0/100. Diferença: 35.0 pontos. No recorte editorial do personagem: Laços afetivos intensos."
+          },
+          {
+            "id": "autonomy",
+            "label": "Autonomia",
+            "low": "Busca de orientação",
+            "high": "Direção própria",
+            "order": 2,
+            "user": 50,
+            "character": 80,
+            "delta": -30,
+            "contribution": 112.5,
+            "explanation": "Autonomia: você 50.0/100 (Equilíbrio entre os dois polos); Feiticeira Escarlate 80.0/100. Diferença: 30.0 pontos. No recorte editorial do personagem: Busca autodeterminação."
+          }
+        ]
+      },
+      "comparison": {
+        "contributions": [
+          {
+            "id": "strategy",
+            "label": "Planejamento",
+            "advantage": 0
+          },
+          {
+            "id": "empathy",
+            "label": "Empatia",
+            "advantage": -75
+          },
+          {
+            "id": "autonomy",
+            "label": "Autonomia",
+            "advantage": 0
+          },
+          {
+            "id": "impulsivity",
+            "label": "Impulsividade",
+            "advantage": 50
+          },
+          {
+            "id": "dominance",
+            "label": "Centralização",
+            "advantage": 15.625
+          },
+          {
+            "id": "cooperation",
+            "label": "Cooperação",
+            "advantage": 62.5
+          },
+          {
+            "id": "risk",
+            "label": "Tolerância ao risco",
+            "advantage": 175
+          },
+          {
+            "id": "flexibility",
+            "label": "Flexibilidade",
+            "advantage": -46.875
+          }
+        ],
+        "gain": 181.25,
+        "tied": false,
+        "explanation": "Feiticeira Escarlate supera Thor por 3.78 pontos de compatibilidade. A redução líquida no erro quadrático médio ponderado é 181.25. Contribuições por eixo (positivo favorece o primeiro; negativo favorece o segundo): Tolerância ao risco: 175.00; Cooperação: 62.50; Impulsividade: 50.00; Centralização: 15.63; Planejamento: 0.00; Autonomia: 0.00; Flexibilidade: -46.88; Empatia: -75.00. Essas contribuições não são pontos percentuais de compatibilidade."
+      },
+      "categories": [
+        {
+          "classification": "herói",
+          "matches": [
+            {
+              "character": {
+                "id": "scarlet-witch",
+                "name": "Feiticeira Escarlate",
+                "publisher": "Marvel",
+                "continuity": "Marvel Comics, Terra-616; síntese editorial de caracterizações recorrentes, não um estado atual ou versão do MCU.",
+                "classification": "herói",
+                "editorialNote": "Wanda Maximoff em fase de reparação; crises e coerção não definem todas as suas aparições.",
+                "profile": {
+                  "strategy": 55,
+                  "empathy": 85,
+                  "autonomy": 80,
+                  "impulsivity": 65,
+                  "dominance": 40,
+                  "cooperation": 70,
+                  "risk": 75,
+                  "flexibility": 70
+                },
+                "rationale": {
+                  "strategy": "Planejamento variável",
+                  "empathy": "Laços afetivos intensos",
+                  "autonomy": "Busca autodeterminação",
+                  "impulsivity": "Emoções aceleram ações",
+                  "dominance": "Não procura domínio permanente",
+                  "cooperation": "Busca pertencimento",
+                  "risk": "Tolera incerteza elevada",
+                  "flexibility": "Reconstrói suas formas de agir"
+                },
+                "source": "https://www.marvel.com/characters/scarlet-witch-wanda-maximoff/in-comics"
+              },
+              "compatibility": 77.92059783418038
+            }
+          ]
+        },
+        {
+          "classification": "vilão",
+          "matches": [
+            {
+              "character": {
+                "id": "mysterio",
+                "name": "Mystério",
+                "publisher": "Marvel",
+                "continuity": "Marvel Comics, Terra-616; síntese editorial de caracterizações recorrentes, não um estado atual ou versão do MCU.",
+                "classification": "vilão",
+                "editorialNote": "Quentin Beck ilusionista; não outros portadores do nome.",
+                "profile": {
+                  "strategy": 90,
+                  "empathy": 20,
+                  "autonomy": 80,
+                  "impulsivity": 55,
+                  "dominance": 75,
+                  "cooperation": 35,
+                  "risk": 65,
+                  "flexibility": 90
+                },
+                "rationale": {
+                  "strategy": "Prepara cenários ilusórios",
+                  "empathy": "Manipula percepções alheias",
+                  "autonomy": "Busca autoria e reconhecimento",
+                  "impulsivity": "Frustração quebra planos",
+                  "dominance": "Controla a narrativa",
+                  "cooperation": "Coopera por vantagem",
+                  "risk": "Aposta em encenações",
+                  "flexibility": "Inventa truques e identidades"
+                },
+                "source": "https://www.marvel.com/characters/mysterio/in-comics"
+              },
+              "compatibility": 72.38659745703185
+            }
+          ]
+        },
+        {
+          "classification": "anti-herói",
+          "matches": [
+            {
+              "character": {
+                "id": "wolverine",
+                "name": "Wolverine",
+                "publisher": "Marvel",
+                "continuity": "Marvel Comics, Terra-616; síntese editorial de caracterizações recorrentes, não um estado atual ou versão do MCU.",
+                "classification": "anti-herói",
+                "editorialNote": "Logan protetor e mentor, com métodos violentos; não uma média de todas as versões.",
+                "profile": {
+                  "strategy": 65,
+                  "empathy": 65,
+                  "autonomy": 95,
+                  "impulsivity": 80,
+                  "dominance": 35,
+                  "cooperation": 60,
+                  "risk": 95,
+                  "flexibility": 45
+                },
+                "rationale": {
+                  "strategy": "Experiência tática",
+                  "empathy": "Cuidado seletivo e profundo",
+                  "autonomy": "Resiste a controle",
+                  "impulsivity": "Reage com intensidade",
+                  "dominance": "Evita governar outros",
+                  "cooperation": "Coopera com atrito",
+                  "risk": "Aceita perigo extremo",
+                  "flexibility": "Métodos persistentes"
+                },
+                "source": "https://www.marvel.com/characters/wolverine/in-comics"
+              },
+              "compatibility": 73.19048676309097
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

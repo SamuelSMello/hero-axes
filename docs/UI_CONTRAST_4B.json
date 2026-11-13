@@ -1,0 +1,85 @@
+{
+  "method": "Contraste sRGB dos pares opacos principais, limite de texto normal 4.5:1, contorno/foco 3:1. Não substitui auditoria em navegador nem verificação de todos os estados e composições.",
+  "checks": [
+    {
+      "label": "Texto principal / fundo",
+      "foreground": "#f5f4f1",
+      "background": "#0b0d12",
+      "ratio": 17.67,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "label": "Texto principal / superfície",
+      "foreground": "#f5f4f1",
+      "background": "#181d27",
+      "ratio": 15.349,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "label": "Texto secundário / superfície",
+      "foreground": "#b6bdcc",
+      "background": "#181d27",
+      "ratio": 8.956,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "label": "Texto secundário / superfície elevada",
+      "foreground": "#b6bdcc",
+      "background": "#202735",
+      "ratio": 7.94,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "label": "Destaque textual / superfície",
+      "foreground": "#ff8993",
+      "background": "#181d27",
+      "ratio": 7.438,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "label": "Dourado / superfície",
+      "foreground": "#f0b94b",
+      "background": "#181d27",
+      "ratio": 9.443,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "label": "Branco do botão / primária",
+      "foreground": "#ffffff",
+      "background": "#d92535",
+      "ratio": 4.922,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "label": "Branco do botão / hover",
+      "foreground": "#ffffff",
+      "background": "#bc1c2b",
+      "ratio": 6.289,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "label": "Contorno de alternativa / superfície",
+      "foreground": "#65728a",
+      "background": "#181d27",
+      "ratio": 3.479,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "label": "Foco / superfície",
+      "foreground": "#f0b94b",
+      "background": "#181d27",
+      "ratio": 9.443,
+      "minimum": 3,
+      "pass": true
+    }
+  ]
+}

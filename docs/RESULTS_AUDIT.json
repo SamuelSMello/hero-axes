@@ -1,0 +1,3022 @@
+{
+  "versions": {
+    "algorithm": "weighted-rms-1.0.0",
+    "questionnaire": "behavioral-1.1.0",
+    "catalog": "marvel-616-editorial-1.0.1"
+  },
+  "methodology": "Diagnóstico determinístico, não estimativa de prevalência humana. Halton: alternativas 1–5 independentes por item, 4096 casos por modo. Grade: 3^8 perfis {0,50,100}, 6561 por modo. Empates dividem a contagem. Testemunhas de alcance arredondam cada eixo ao valor alcançável mais próximo.",
+  "ranges": [
+    {
+      "axis": "strategy",
+      "min": 20,
+      "max": 98
+    },
+    {
+      "axis": "empathy",
+      "min": 0,
+      "max": 95
+    },
+    {
+      "axis": "autonomy",
+      "min": 75,
+      "max": 98
+    },
+    {
+      "axis": "impulsivity",
+      "min": 20,
+      "max": 95
+    },
+    {
+      "axis": "dominance",
+      "min": 20,
+      "max": 100
+    },
+    {
+      "axis": "cooperation",
+      "min": 10,
+      "max": 95
+    },
+    {
+      "axis": "risk",
+      "min": 45,
+      "max": 95
+    },
+    {
+      "axis": "flexibility",
+      "min": 20,
+      "max": 95
+    }
+  ],
+  "reachability": [
+    {
+      "mode": "quick",
+      "characters": [
+        {
+          "id": "iron-man",
+          "reachable": true,
+          "compatibility": 96.8131128040045,
+          "profile": {
+            "strategy": 87.5,
+            "empathy": 50,
+            "autonomy": 87.5,
+            "impulsivity": 62.5,
+            "dominance": 75,
+            "cooperation": 62.5,
+            "risk": 87.5,
+            "flexibility": 75
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 2,
+            "empathy-1": 3,
+            "empathy-2": 3,
+            "autonomy-1": 5,
+            "autonomy-2": 2,
+            "impulsivity-1": 4,
+            "impulsivity-2": 3,
+            "dominance-1": 4,
+            "dominance-2": 2,
+            "cooperation-1": 4,
+            "cooperation-2": 3,
+            "risk-1": 5,
+            "risk-2": 2,
+            "flexibility-1": 4,
+            "flexibility-2": 2
+          }
+        },
+        {
+          "id": "captain-america",
+          "reachable": true,
+          "compatibility": 96.14724124814438,
+          "profile": {
+            "strategy": 87.5,
+            "empathy": 87.5,
+            "autonomy": 75,
+            "impulsivity": 25,
+            "dominance": 50,
+            "cooperation": 100,
+            "risk": 75,
+            "flexibility": 62.5
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 2,
+            "empathy-1": 5,
+            "empathy-2": 2,
+            "autonomy-1": 4,
+            "autonomy-2": 2,
+            "impulsivity-1": 2,
+            "impulsivity-2": 4,
+            "dominance-1": 3,
+            "dominance-2": 3,
+            "cooperation-1": 5,
+            "cooperation-2": 1,
+            "risk-1": 4,
+            "risk-2": 2,
+            "flexibility-1": 4,
+            "flexibility-2": 3
+          }
+        },
+        {
+          "id": "spider-man",
+          "reachable": true,
+          "compatibility": 96.14724124814438,
+          "profile": {
+            "strategy": 62.5,
+            "empathy": 100,
+            "autonomy": 75,
+            "impulsivity": 62.5,
+            "dominance": 25,
+            "cooperation": 75,
+            "risk": 75,
+            "flexibility": 87.5
+          },
+          "answers": {
+            "strategy-1": 4,
+            "strategy-2": 3,
+            "empathy-1": 5,
+            "empathy-2": 1,
+            "autonomy-1": 4,
+            "autonomy-2": 2,
+            "impulsivity-1": 4,
+            "impulsivity-2": 3,
+            "dominance-1": 2,
+            "dominance-2": 4,
+            "cooperation-1": 4,
+            "cooperation-2": 2,
+            "risk-1": 4,
+            "risk-2": 2,
+            "flexibility-1": 5,
+            "flexibility-2": 2
+          }
+        },
+        {
+          "id": "thor",
+          "reachable": true,
+          "compatibility": 95.94953706349509,
+          "profile": {
+            "strategy": 50,
+            "empathy": 75,
+            "autonomy": 75,
+            "impulsivity": 75,
+            "dominance": 62.5,
+            "cooperation": 75,
+            "risk": 100,
+            "flexibility": 50
+          },
+          "answers": {
+            "strategy-1": 3,
+            "strategy-2": 3,
+            "empathy-1": 4,
+            "empathy-2": 2,
+            "autonomy-1": 4,
+            "autonomy-2": 2,
+            "impulsivity-1": 4,
+            "impulsivity-2": 2,
+            "dominance-1": 4,
+            "dominance-2": 3,
+            "cooperation-1": 4,
+            "cooperation-2": 2,
+            "risk-1": 5,
+            "risk-2": 1,
+            "flexibility-1": 3,
+            "flexibility-2": 3
+          }
+        },
+        {
+          "id": "hulk",
+          "reachable": true,
+          "compatibility": 95.58058261758407,
+          "profile": {
+            "strategy": 25,
+            "empathy": 62.5,
+            "autonomy": 100,
+            "impulsivity": 100,
+            "dominance": 50,
+            "cooperation": 25,
+            "risk": 100,
+            "flexibility": 25
+          },
+          "answers": {
+            "strategy-1": 2,
+            "strategy-2": 4,
+            "empathy-1": 4,
+            "empathy-2": 3,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "impulsivity-1": 5,
+            "impulsivity-2": 1,
+            "dominance-1": 3,
+            "dominance-2": 3,
+            "cooperation-1": 2,
+            "cooperation-2": 4,
+            "risk-1": 5,
+            "risk-2": 1,
+            "flexibility-1": 2,
+            "flexibility-2": 4
+          }
+        },
+        {
+          "id": "doctor-strange",
+          "reachable": true,
+          "compatibility": 96.25,
+          "profile": {
+            "strategy": 100,
+            "empathy": 62.5,
+            "autonomy": 87.5,
+            "impulsivity": 25,
+            "dominance": 75,
+            "cooperation": 50,
+            "risk": 75,
+            "flexibility": 75
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 1,
+            "empathy-1": 4,
+            "empathy-2": 3,
+            "autonomy-1": 5,
+            "autonomy-2": 2,
+            "impulsivity-1": 2,
+            "impulsivity-2": 4,
+            "dominance-1": 4,
+            "dominance-2": 2,
+            "cooperation-1": 3,
+            "cooperation-2": 3,
+            "risk-1": 4,
+            "risk-2": 2,
+            "flexibility-1": 4,
+            "flexibility-2": 2
+          }
+        },
+        {
+          "id": "black-panther",
+          "reachable": true,
+          "compatibility": 95.85421901205575,
+          "profile": {
+            "strategy": 100,
+            "empathy": 75,
+            "autonomy": 87.5,
+            "impulsivity": 25,
+            "dominance": 75,
+            "cooperation": 75,
+            "risk": 62.5,
+            "flexibility": 75
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 1,
+            "empathy-1": 4,
+            "empathy-2": 2,
+            "autonomy-1": 5,
+            "autonomy-2": 2,
+            "impulsivity-1": 2,
+            "impulsivity-2": 4,
+            "dominance-1": 4,
+            "dominance-2": 2,
+            "cooperation-1": 4,
+            "cooperation-2": 2,
+            "risk-1": 4,
+            "risk-2": 3,
+            "flexibility-1": 4,
+            "flexibility-2": 2
+          }
+        },
+        {
+          "id": "black-widow",
+          "reachable": true,
+          "compatibility": 98.02357646239476,
+          "profile": {
+            "strategy": 87.5,
+            "empathy": 62.5,
+            "autonomy": 87.5,
+            "impulsivity": 25,
+            "dominance": 37.5,
+            "cooperation": 75,
+            "risk": 75,
+            "flexibility": 87.5
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 2,
+            "empathy-1": 4,
+            "empathy-2": 3,
+            "autonomy-1": 5,
+            "autonomy-2": 2,
+            "impulsivity-1": 2,
+            "impulsivity-2": 4,
+            "dominance-1": 3,
+            "dominance-2": 4,
+            "cooperation-1": 4,
+            "cooperation-2": 2,
+            "risk-1": 4,
+            "risk-2": 2,
+            "flexibility-1": 5,
+            "flexibility-2": 2
+          }
+        },
+        {
+          "id": "hawkeye",
+          "reachable": true,
+          "compatibility": 95.76104376054671,
+          "profile": {
+            "strategy": 75,
+            "empathy": 75,
+            "autonomy": 75,
+            "impulsivity": 62.5,
+            "dominance": 25,
+            "cooperation": 87.5,
+            "risk": 87.5,
+            "flexibility": 75
+          },
+          "answers": {
+            "strategy-1": 4,
+            "strategy-2": 2,
+            "empathy-1": 4,
+            "empathy-2": 2,
+            "autonomy-1": 4,
+            "autonomy-2": 2,
+            "impulsivity-1": 4,
+            "impulsivity-2": 3,
+            "dominance-1": 2,
+            "dominance-2": 4,
+            "cooperation-1": 5,
+            "cooperation-2": 2,
+            "risk-1": 5,
+            "risk-2": 2,
+            "flexibility-1": 4,
+            "flexibility-2": 2
+          }
+        },
+        {
+          "id": "scarlet-witch",
+          "reachable": true,
+          "compatibility": 96.14724124814438,
+          "profile": {
+            "strategy": 50,
+            "empathy": 87.5,
+            "autonomy": 75,
+            "impulsivity": 62.5,
+            "dominance": 37.5,
+            "cooperation": 75,
+            "risk": 75,
+            "flexibility": 75
+          },
+          "answers": {
+            "strategy-1": 3,
+            "strategy-2": 3,
+            "empathy-1": 5,
+            "empathy-2": 2,
+            "autonomy-1": 4,
+            "autonomy-2": 2,
+            "impulsivity-1": 4,
+            "impulsivity-2": 3,
+            "dominance-1": 3,
+            "dominance-2": 4,
+            "cooperation-1": 4,
+            "cooperation-2": 2,
+            "risk-1": 4,
+            "risk-2": 2,
+            "flexibility-1": 4,
+            "flexibility-2": 2
+          }
+        },
+        {
+          "id": "wolverine",
+          "reachable": true,
+          "compatibility": 96.04715292478953,
+          "profile": {
+            "strategy": 62.5,
+            "empathy": 62.5,
+            "autonomy": 100,
+            "impulsivity": 75,
+            "dominance": 37.5,
+            "cooperation": 62.5,
+            "risk": 100,
+            "flexibility": 50
+          },
+          "answers": {
+            "strategy-1": 4,
+            "strategy-2": 3,
+            "empathy-1": 4,
+            "empathy-2": 3,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "impulsivity-1": 4,
+            "impulsivity-2": 2,
+            "dominance-1": 3,
+            "dominance-2": 4,
+            "cooperation-1": 4,
+            "cooperation-2": 3,
+            "risk-1": 5,
+            "risk-2": 1,
+            "flexibility-1": 3,
+            "flexibility-2": 3
+          }
+        },
+        {
+          "id": "daredevil",
+          "reachable": true,
+          "compatibility": 96.35565506572169,
+          "profile": {
+            "strategy": 75,
+            "empathy": 87.5,
+            "autonomy": 87.5,
+            "impulsivity": 62.5,
+            "dominance": 50,
+            "cooperation": 50,
+            "risk": 87.5,
+            "flexibility": 37.5
+          },
+          "answers": {
+            "strategy-1": 4,
+            "strategy-2": 2,
+            "empathy-1": 5,
+            "empathy-2": 2,
+            "autonomy-1": 5,
+            "autonomy-2": 2,
+            "impulsivity-1": 4,
+            "impulsivity-2": 3,
+            "dominance-1": 3,
+            "dominance-2": 3,
+            "cooperation-1": 3,
+            "cooperation-2": 3,
+            "risk-1": 5,
+            "risk-2": 2,
+            "flexibility-1": 3,
+            "flexibility-2": 4
+          }
+        },
+        {
+          "id": "doctor-doom",
+          "reachable": true,
+          "compatibility": 96.65990269602815,
+          "profile": {
+            "strategy": 100,
+            "empathy": 25,
+            "autonomy": 100,
+            "impulsivity": 37.5,
+            "dominance": 100,
+            "cooperation": 25,
+            "risk": 75,
+            "flexibility": 50
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 1,
+            "empathy-1": 2,
+            "empathy-2": 4,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "impulsivity-1": 3,
+            "impulsivity-2": 4,
+            "dominance-1": 5,
+            "dominance-2": 1,
+            "cooperation-1": 2,
+            "cooperation-2": 4,
+            "risk-1": 4,
+            "risk-2": 2,
+            "flexibility-1": 3,
+            "flexibility-2": 3
+          }
+        },
+        {
+          "id": "thanos",
+          "reachable": true,
+          "compatibility": 96.04715292478953,
+          "profile": {
+            "strategy": 100,
+            "empathy": 12.5,
+            "autonomy": 100,
+            "impulsivity": 25,
+            "dominance": 100,
+            "cooperation": 12.5,
+            "risk": 87.5,
+            "flexibility": 37.5
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 1,
+            "empathy-1": 2,
+            "empathy-2": 5,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "impulsivity-1": 2,
+            "impulsivity-2": 4,
+            "dominance-1": 5,
+            "dominance-2": 1,
+            "cooperation-1": 2,
+            "cooperation-2": 5,
+            "risk-1": 5,
+            "risk-2": 2,
+            "flexibility-1": 3,
+            "flexibility-2": 4
+          }
+        },
+        {
+          "id": "ultron",
+          "reachable": true,
+          "compatibility": 96.14724124814438,
+          "profile": {
+            "strategy": 87.5,
+            "empathy": 0,
+            "autonomy": 100,
+            "impulsivity": 50,
+            "dominance": 100,
+            "cooperation": 12.5,
+            "risk": 75,
+            "flexibility": 62.5
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 2,
+            "empathy-1": 1,
+            "empathy-2": 5,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "impulsivity-1": 3,
+            "impulsivity-2": 3,
+            "dominance-1": 5,
+            "dominance-2": 1,
+            "cooperation-1": 2,
+            "cooperation-2": 5,
+            "risk-1": 4,
+            "risk-2": 2,
+            "flexibility-1": 4,
+            "flexibility-2": 3
+          }
+        },
+        {
+          "id": "loki",
+          "reachable": true,
+          "compatibility": 95.76104376054671,
+          "profile": {
+            "strategy": 87.5,
+            "empathy": 50,
+            "autonomy": 100,
+            "impulsivity": 50,
+            "dominance": 75,
+            "cooperation": 37.5,
+            "risk": 87.5,
+            "flexibility": 100
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 2,
+            "empathy-1": 3,
+            "empathy-2": 3,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "impulsivity-1": 3,
+            "impulsivity-2": 3,
+            "dominance-1": 4,
+            "dominance-2": 2,
+            "cooperation-1": 3,
+            "cooperation-2": 4,
+            "risk-1": 5,
+            "risk-2": 2,
+            "flexibility-1": 5,
+            "flexibility-2": 1
+          }
+        },
+        {
+          "id": "magneto",
+          "reachable": true,
+          "compatibility": 96.46446609406726,
+          "profile": {
+            "strategy": 87.5,
+            "empathy": 50,
+            "autonomy": 100,
+            "impulsivity": 50,
+            "dominance": 87.5,
+            "cooperation": 62.5,
+            "risk": 87.5,
+            "flexibility": 50
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 2,
+            "empathy-1": 3,
+            "empathy-2": 3,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "impulsivity-1": 3,
+            "impulsivity-2": 3,
+            "dominance-1": 5,
+            "dominance-2": 2,
+            "cooperation-1": 4,
+            "cooperation-2": 3,
+            "risk-1": 5,
+            "risk-2": 2,
+            "flexibility-1": 3,
+            "flexibility-2": 3
+          }
+        },
+        {
+          "id": "red-skull",
+          "reachable": true,
+          "compatibility": 96.93813782152102,
+          "profile": {
+            "strategy": 87.5,
+            "empathy": 0,
+            "autonomy": 87.5,
+            "impulsivity": 50,
+            "dominance": 100,
+            "cooperation": 12.5,
+            "risk": 62.5,
+            "flexibility": 25
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 2,
+            "empathy-1": 1,
+            "empathy-2": 5,
+            "autonomy-1": 5,
+            "autonomy-2": 2,
+            "impulsivity-1": 3,
+            "impulsivity-2": 3,
+            "dominance-1": 5,
+            "dominance-2": 1,
+            "cooperation-1": 2,
+            "cooperation-2": 5,
+            "risk-1": 4,
+            "risk-2": 3,
+            "flexibility-1": 2,
+            "flexibility-2": 4
+          }
+        },
+        {
+          "id": "green-goblin",
+          "reachable": true,
+          "compatibility": 96.35565506572169,
+          "profile": {
+            "strategy": 87.5,
+            "empathy": 12.5,
+            "autonomy": 87.5,
+            "impulsivity": 87.5,
+            "dominance": 100,
+            "cooperation": 25,
+            "risk": 100,
+            "flexibility": 62.5
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 2,
+            "empathy-1": 2,
+            "empathy-2": 5,
+            "autonomy-1": 5,
+            "autonomy-2": 2,
+            "impulsivity-1": 5,
+            "impulsivity-2": 2,
+            "dominance-1": 5,
+            "dominance-2": 1,
+            "cooperation-1": 2,
+            "cooperation-2": 4,
+            "risk-1": 5,
+            "risk-2": 1,
+            "flexibility-1": 4,
+            "flexibility-2": 3
+          }
+        },
+        {
+          "id": "kingpin",
+          "reachable": true,
+          "compatibility": 96.14724124814438,
+          "profile": {
+            "strategy": 100,
+            "empathy": 25,
+            "autonomy": 87.5,
+            "impulsivity": 25,
+            "dominance": 100,
+            "cooperation": 37.5,
+            "risk": 50,
+            "flexibility": 62.5
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 1,
+            "empathy-1": 2,
+            "empathy-2": 4,
+            "autonomy-1": 5,
+            "autonomy-2": 2,
+            "impulsivity-1": 2,
+            "impulsivity-2": 4,
+            "dominance-1": 5,
+            "dominance-2": 1,
+            "cooperation-1": 3,
+            "cooperation-2": 4,
+            "risk-1": 3,
+            "risk-2": 3,
+            "flexibility-1": 4,
+            "flexibility-2": 3
+          }
+        },
+        {
+          "id": "kang",
+          "reachable": true,
+          "compatibility": 96.18391561938157,
+          "profile": {
+            "strategy": 100,
+            "empathy": 12.5,
+            "autonomy": 100,
+            "impulsivity": 25,
+            "dominance": 100,
+            "cooperation": 25,
+            "risk": 87.5,
+            "flexibility": 75
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 1,
+            "empathy-1": 2,
+            "empathy-2": 5,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "impulsivity-1": 2,
+            "impulsivity-2": 4,
+            "dominance-1": 5,
+            "dominance-2": 1,
+            "cooperation-1": 2,
+            "cooperation-2": 4,
+            "risk-1": 5,
+            "risk-2": 2,
+            "flexibility-1": 4,
+            "flexibility-2": 2
+          }
+        },
+        {
+          "id": "hela",
+          "reachable": true,
+          "compatibility": 96.35565506572169,
+          "profile": {
+            "strategy": 87.5,
+            "empathy": 12.5,
+            "autonomy": 87.5,
+            "impulsivity": 25,
+            "dominance": 100,
+            "cooperation": 25,
+            "risk": 62.5,
+            "flexibility": 37.5
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 2,
+            "empathy-1": 2,
+            "empathy-2": 5,
+            "autonomy-1": 5,
+            "autonomy-2": 2,
+            "impulsivity-1": 2,
+            "impulsivity-2": 4,
+            "dominance-1": 5,
+            "dominance-2": 1,
+            "cooperation-1": 2,
+            "cooperation-2": 4,
+            "risk-1": 4,
+            "risk-2": 3,
+            "flexibility-1": 3,
+            "flexibility-2": 4
+          }
+        },
+        {
+          "id": "mysterio",
+          "reachable": true,
+          "compatibility": 96.46446609406726,
+          "profile": {
+            "strategy": 87.5,
+            "empathy": 25,
+            "autonomy": 75,
+            "impulsivity": 50,
+            "dominance": 75,
+            "cooperation": 37.5,
+            "risk": 62.5,
+            "flexibility": 87.5
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 2,
+            "empathy-1": 2,
+            "empathy-2": 4,
+            "autonomy-1": 4,
+            "autonomy-2": 2,
+            "impulsivity-1": 3,
+            "impulsivity-2": 3,
+            "dominance-1": 4,
+            "dominance-2": 2,
+            "cooperation-1": 3,
+            "cooperation-2": 4,
+            "risk-1": 4,
+            "risk-2": 3,
+            "flexibility-1": 5,
+            "flexibility-2": 2
+          }
+        },
+        {
+          "id": "killmonger",
+          "reachable": true,
+          "compatibility": 96.04715292478953,
+          "profile": {
+            "strategy": 87.5,
+            "empathy": 25,
+            "autonomy": 100,
+            "impulsivity": 62.5,
+            "dominance": 87.5,
+            "cooperation": 50,
+            "risk": 87.5,
+            "flexibility": 50
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 2,
+            "empathy-1": 2,
+            "empathy-2": 4,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "impulsivity-1": 4,
+            "impulsivity-2": 3,
+            "dominance-1": 5,
+            "dominance-2": 2,
+            "cooperation-1": 3,
+            "cooperation-2": 3,
+            "risk-1": 5,
+            "risk-2": 2,
+            "flexibility-1": 3,
+            "flexibility-2": 3
+          }
+        }
+      ]
+    },
+    {
+      "mode": "full",
+      "characters": [
+        {
+          "id": "iron-man",
+          "reachable": true,
+          "compatibility": 100,
+          "profile": {
+            "strategy": 90,
+            "empathy": 55,
+            "autonomy": 90,
+            "impulsivity": 60,
+            "dominance": 75,
+            "cooperation": 60,
+            "risk": 85,
+            "flexibility": 80
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 1,
+            "strategy-3": 5,
+            "strategy-4": 2,
+            "strategy-5": 4,
+            "empathy-1": 4,
+            "empathy-2": 3,
+            "empathy-3": 3,
+            "empathy-4": 3,
+            "empathy-5": 3,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "autonomy-3": 5,
+            "autonomy-4": 2,
+            "autonomy-5": 4,
+            "impulsivity-1": 4,
+            "impulsivity-2": 2,
+            "impulsivity-3": 3,
+            "impulsivity-4": 3,
+            "impulsivity-5": 3,
+            "dominance-1": 4,
+            "dominance-2": 2,
+            "dominance-3": 4,
+            "dominance-4": 2,
+            "dominance-5": 4,
+            "cooperation-1": 4,
+            "cooperation-2": 2,
+            "cooperation-3": 3,
+            "cooperation-4": 3,
+            "cooperation-5": 3,
+            "risk-1": 5,
+            "risk-2": 1,
+            "risk-3": 4,
+            "risk-4": 2,
+            "risk-5": 4,
+            "flexibility-1": 5,
+            "flexibility-2": 2,
+            "flexibility-3": 4,
+            "flexibility-4": 2,
+            "flexibility-5": 4
+          }
+        },
+        {
+          "id": "captain-america",
+          "reachable": true,
+          "compatibility": 100,
+          "profile": {
+            "strategy": 85,
+            "empathy": 90,
+            "autonomy": 80,
+            "impulsivity": 25,
+            "dominance": 45,
+            "cooperation": 95,
+            "risk": 80,
+            "flexibility": 60
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 1,
+            "strategy-3": 4,
+            "strategy-4": 2,
+            "strategy-5": 4,
+            "empathy-1": 5,
+            "empathy-2": 1,
+            "empathy-3": 5,
+            "empathy-4": 2,
+            "empathy-5": 4,
+            "autonomy-1": 5,
+            "autonomy-2": 2,
+            "autonomy-3": 4,
+            "autonomy-4": 2,
+            "autonomy-5": 4,
+            "impulsivity-1": 2,
+            "impulsivity-2": 4,
+            "impulsivity-3": 2,
+            "impulsivity-4": 4,
+            "impulsivity-5": 2,
+            "dominance-1": 3,
+            "dominance-2": 3,
+            "dominance-3": 3,
+            "dominance-4": 3,
+            "dominance-5": 2,
+            "cooperation-1": 5,
+            "cooperation-2": 1,
+            "cooperation-3": 5,
+            "cooperation-4": 1,
+            "cooperation-5": 4,
+            "risk-1": 5,
+            "risk-2": 2,
+            "risk-3": 4,
+            "risk-4": 2,
+            "risk-5": 4,
+            "flexibility-1": 4,
+            "flexibility-2": 2,
+            "flexibility-3": 3,
+            "flexibility-4": 3,
+            "flexibility-5": 3
+          }
+        },
+        {
+          "id": "spider-man",
+          "reachable": true,
+          "compatibility": 100,
+          "profile": {
+            "strategy": 65,
+            "empathy": 95,
+            "autonomy": 75,
+            "impulsivity": 65,
+            "dominance": 20,
+            "cooperation": 70,
+            "risk": 80,
+            "flexibility": 90
+          },
+          "answers": {
+            "strategy-1": 4,
+            "strategy-2": 2,
+            "strategy-3": 4,
+            "strategy-4": 3,
+            "strategy-5": 3,
+            "empathy-1": 5,
+            "empathy-2": 1,
+            "empathy-3": 5,
+            "empathy-4": 1,
+            "empathy-5": 4,
+            "autonomy-1": 4,
+            "autonomy-2": 2,
+            "autonomy-3": 4,
+            "autonomy-4": 2,
+            "autonomy-5": 4,
+            "impulsivity-1": 4,
+            "impulsivity-2": 2,
+            "impulsivity-3": 4,
+            "impulsivity-4": 3,
+            "impulsivity-5": 3,
+            "dominance-1": 2,
+            "dominance-2": 4,
+            "dominance-3": 2,
+            "dominance-4": 4,
+            "dominance-5": 1,
+            "cooperation-1": 4,
+            "cooperation-2": 2,
+            "cooperation-3": 4,
+            "cooperation-4": 2,
+            "cooperation-5": 3,
+            "risk-1": 5,
+            "risk-2": 2,
+            "risk-3": 4,
+            "risk-4": 2,
+            "risk-5": 4,
+            "flexibility-1": 5,
+            "flexibility-2": 1,
+            "flexibility-3": 5,
+            "flexibility-4": 2,
+            "flexibility-5": 4
+          }
+        },
+        {
+          "id": "thor",
+          "reachable": true,
+          "compatibility": 100,
+          "profile": {
+            "strategy": 55,
+            "empathy": 75,
+            "autonomy": 80,
+            "impulsivity": 75,
+            "dominance": 65,
+            "cooperation": 80,
+            "risk": 95,
+            "flexibility": 55
+          },
+          "answers": {
+            "strategy-1": 4,
+            "strategy-2": 3,
+            "strategy-3": 3,
+            "strategy-4": 3,
+            "strategy-5": 3,
+            "empathy-1": 4,
+            "empathy-2": 2,
+            "empathy-3": 4,
+            "empathy-4": 2,
+            "empathy-5": 4,
+            "autonomy-1": 5,
+            "autonomy-2": 2,
+            "autonomy-3": 4,
+            "autonomy-4": 2,
+            "autonomy-5": 4,
+            "impulsivity-1": 4,
+            "impulsivity-2": 2,
+            "impulsivity-3": 4,
+            "impulsivity-4": 2,
+            "impulsivity-5": 4,
+            "dominance-1": 4,
+            "dominance-2": 2,
+            "dominance-3": 4,
+            "dominance-4": 3,
+            "dominance-5": 3,
+            "cooperation-1": 5,
+            "cooperation-2": 2,
+            "cooperation-3": 4,
+            "cooperation-4": 2,
+            "cooperation-5": 4,
+            "risk-1": 5,
+            "risk-2": 1,
+            "risk-3": 5,
+            "risk-4": 1,
+            "risk-5": 4,
+            "flexibility-1": 4,
+            "flexibility-2": 3,
+            "flexibility-3": 3,
+            "flexibility-4": 3,
+            "flexibility-5": 3
+          }
+        },
+        {
+          "id": "hulk",
+          "reachable": true,
+          "compatibility": 100,
+          "profile": {
+            "strategy": 20,
+            "empathy": 60,
+            "autonomy": 95,
+            "impulsivity": 95,
+            "dominance": 55,
+            "cooperation": 25,
+            "risk": 95,
+            "flexibility": 30
+          },
+          "answers": {
+            "strategy-1": 2,
+            "strategy-2": 4,
+            "strategy-3": 2,
+            "strategy-4": 4,
+            "strategy-5": 1,
+            "empathy-1": 4,
+            "empathy-2": 2,
+            "empathy-3": 3,
+            "empathy-4": 3,
+            "empathy-5": 3,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "autonomy-3": 5,
+            "autonomy-4": 1,
+            "autonomy-5": 4,
+            "impulsivity-1": 5,
+            "impulsivity-2": 1,
+            "impulsivity-3": 5,
+            "impulsivity-4": 1,
+            "impulsivity-5": 4,
+            "dominance-1": 4,
+            "dominance-2": 3,
+            "dominance-3": 3,
+            "dominance-4": 3,
+            "dominance-5": 3,
+            "cooperation-1": 2,
+            "cooperation-2": 4,
+            "cooperation-3": 2,
+            "cooperation-4": 4,
+            "cooperation-5": 2,
+            "risk-1": 5,
+            "risk-2": 1,
+            "risk-3": 5,
+            "risk-4": 1,
+            "risk-5": 4,
+            "flexibility-1": 3,
+            "flexibility-2": 4,
+            "flexibility-3": 2,
+            "flexibility-4": 4,
+            "flexibility-5": 2
+          }
+        },
+        {
+          "id": "doctor-strange",
+          "reachable": true,
+          "compatibility": 100,
+          "profile": {
+            "strategy": 95,
+            "empathy": 65,
+            "autonomy": 90,
+            "impulsivity": 20,
+            "dominance": 75,
+            "cooperation": 55,
+            "risk": 75,
+            "flexibility": 80
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 1,
+            "strategy-3": 5,
+            "strategy-4": 1,
+            "strategy-5": 4,
+            "empathy-1": 4,
+            "empathy-2": 2,
+            "empathy-3": 4,
+            "empathy-4": 3,
+            "empathy-5": 3,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "autonomy-3": 5,
+            "autonomy-4": 2,
+            "autonomy-5": 4,
+            "impulsivity-1": 2,
+            "impulsivity-2": 4,
+            "impulsivity-3": 2,
+            "impulsivity-4": 4,
+            "impulsivity-5": 1,
+            "dominance-1": 4,
+            "dominance-2": 2,
+            "dominance-3": 4,
+            "dominance-4": 2,
+            "dominance-5": 4,
+            "cooperation-1": 4,
+            "cooperation-2": 3,
+            "cooperation-3": 3,
+            "cooperation-4": 3,
+            "cooperation-5": 3,
+            "risk-1": 4,
+            "risk-2": 2,
+            "risk-3": 4,
+            "risk-4": 2,
+            "risk-5": 4,
+            "flexibility-1": 5,
+            "flexibility-2": 2,
+            "flexibility-3": 4,
+            "flexibility-4": 2,
+            "flexibility-5": 4
+          }
+        },
+        {
+          "id": "black-panther",
+          "reachable": true,
+          "compatibility": 100,
+          "profile": {
+            "strategy": 95,
+            "empathy": 80,
+            "autonomy": 85,
+            "impulsivity": 20,
+            "dominance": 70,
+            "cooperation": 80,
+            "risk": 60,
+            "flexibility": 75
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 1,
+            "strategy-3": 5,
+            "strategy-4": 1,
+            "strategy-5": 4,
+            "empathy-1": 5,
+            "empathy-2": 2,
+            "empathy-3": 4,
+            "empathy-4": 2,
+            "empathy-5": 4,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "autonomy-3": 4,
+            "autonomy-4": 2,
+            "autonomy-5": 4,
+            "impulsivity-1": 2,
+            "impulsivity-2": 4,
+            "impulsivity-3": 2,
+            "impulsivity-4": 4,
+            "impulsivity-5": 1,
+            "dominance-1": 4,
+            "dominance-2": 2,
+            "dominance-3": 4,
+            "dominance-4": 2,
+            "dominance-5": 3,
+            "cooperation-1": 5,
+            "cooperation-2": 2,
+            "cooperation-3": 4,
+            "cooperation-4": 2,
+            "cooperation-5": 4,
+            "risk-1": 4,
+            "risk-2": 2,
+            "risk-3": 3,
+            "risk-4": 3,
+            "risk-5": 3,
+            "flexibility-1": 4,
+            "flexibility-2": 2,
+            "flexibility-3": 4,
+            "flexibility-4": 2,
+            "flexibility-5": 4
+          }
+        },
+        {
+          "id": "black-widow",
+          "reachable": true,
+          "compatibility": 100,
+          "profile": {
+            "strategy": 90,
+            "empathy": 65,
+            "autonomy": 85,
+            "impulsivity": 25,
+            "dominance": 40,
+            "cooperation": 75,
+            "risk": 75,
+            "flexibility": 90
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 1,
+            "strategy-3": 5,
+            "strategy-4": 2,
+            "strategy-5": 4,
+            "empathy-1": 4,
+            "empathy-2": 2,
+            "empathy-3": 4,
+            "empathy-4": 3,
+            "empathy-5": 3,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "autonomy-3": 4,
+            "autonomy-4": 2,
+            "autonomy-5": 4,
+            "impulsivity-1": 2,
+            "impulsivity-2": 4,
+            "impulsivity-3": 2,
+            "impulsivity-4": 4,
+            "impulsivity-5": 2,
+            "dominance-1": 3,
+            "dominance-2": 3,
+            "dominance-3": 3,
+            "dominance-4": 4,
+            "dominance-5": 2,
+            "cooperation-1": 4,
+            "cooperation-2": 2,
+            "cooperation-3": 4,
+            "cooperation-4": 2,
+            "cooperation-5": 4,
+            "risk-1": 4,
+            "risk-2": 2,
+            "risk-3": 4,
+            "risk-4": 2,
+            "risk-5": 4,
+            "flexibility-1": 5,
+            "flexibility-2": 1,
+            "flexibility-3": 5,
+            "flexibility-4": 2,
+            "flexibility-5": 4
+          }
+        },
+        {
+          "id": "hawkeye",
+          "reachable": true,
+          "compatibility": 100,
+          "profile": {
+            "strategy": 70,
+            "empathy": 80,
+            "autonomy": 80,
+            "impulsivity": 65,
+            "dominance": 30,
+            "cooperation": 85,
+            "risk": 85,
+            "flexibility": 80
+          },
+          "answers": {
+            "strategy-1": 4,
+            "strategy-2": 2,
+            "strategy-3": 4,
+            "strategy-4": 2,
+            "strategy-5": 3,
+            "empathy-1": 5,
+            "empathy-2": 2,
+            "empathy-3": 4,
+            "empathy-4": 2,
+            "empathy-5": 4,
+            "autonomy-1": 5,
+            "autonomy-2": 2,
+            "autonomy-3": 4,
+            "autonomy-4": 2,
+            "autonomy-5": 4,
+            "impulsivity-1": 4,
+            "impulsivity-2": 2,
+            "impulsivity-3": 4,
+            "impulsivity-4": 3,
+            "impulsivity-5": 3,
+            "dominance-1": 3,
+            "dominance-2": 4,
+            "dominance-3": 2,
+            "dominance-4": 4,
+            "dominance-5": 2,
+            "cooperation-1": 5,
+            "cooperation-2": 1,
+            "cooperation-3": 4,
+            "cooperation-4": 2,
+            "cooperation-5": 4,
+            "risk-1": 5,
+            "risk-2": 1,
+            "risk-3": 4,
+            "risk-4": 2,
+            "risk-5": 4,
+            "flexibility-1": 5,
+            "flexibility-2": 2,
+            "flexibility-3": 4,
+            "flexibility-4": 2,
+            "flexibility-5": 4
+          }
+        },
+        {
+          "id": "scarlet-witch",
+          "reachable": true,
+          "compatibility": 100,
+          "profile": {
+            "strategy": 55,
+            "empathy": 85,
+            "autonomy": 80,
+            "impulsivity": 65,
+            "dominance": 40,
+            "cooperation": 70,
+            "risk": 75,
+            "flexibility": 70
+          },
+          "answers": {
+            "strategy-1": 4,
+            "strategy-2": 3,
+            "strategy-3": 3,
+            "strategy-4": 3,
+            "strategy-5": 3,
+            "empathy-1": 5,
+            "empathy-2": 1,
+            "empathy-3": 4,
+            "empathy-4": 2,
+            "empathy-5": 4,
+            "autonomy-1": 5,
+            "autonomy-2": 2,
+            "autonomy-3": 4,
+            "autonomy-4": 2,
+            "autonomy-5": 4,
+            "impulsivity-1": 4,
+            "impulsivity-2": 2,
+            "impulsivity-3": 4,
+            "impulsivity-4": 3,
+            "impulsivity-5": 3,
+            "dominance-1": 3,
+            "dominance-2": 3,
+            "dominance-3": 3,
+            "dominance-4": 4,
+            "dominance-5": 2,
+            "cooperation-1": 4,
+            "cooperation-2": 2,
+            "cooperation-3": 4,
+            "cooperation-4": 2,
+            "cooperation-5": 3,
+            "risk-1": 4,
+            "risk-2": 2,
+            "risk-3": 4,
+            "risk-4": 2,
+            "risk-5": 4,
+            "flexibility-1": 4,
+            "flexibility-2": 2,
+            "flexibility-3": 4,
+            "flexibility-4": 2,
+            "flexibility-5": 3
+          }
+        },
+        {
+          "id": "wolverine",
+          "reachable": true,
+          "compatibility": 100,
+          "profile": {
+            "strategy": 65,
+            "empathy": 65,
+            "autonomy": 95,
+            "impulsivity": 80,
+            "dominance": 35,
+            "cooperation": 60,
+            "risk": 95,
+            "flexibility": 45
+          },
+          "answers": {
+            "strategy-1": 4,
+            "strategy-2": 2,
+            "strategy-3": 4,
+            "strategy-4": 3,
+            "strategy-5": 3,
+            "empathy-1": 4,
+            "empathy-2": 2,
+            "empathy-3": 4,
+            "empathy-4": 3,
+            "empathy-5": 3,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "autonomy-3": 5,
+            "autonomy-4": 1,
+            "autonomy-5": 4,
+            "impulsivity-1": 5,
+            "impulsivity-2": 2,
+            "impulsivity-3": 4,
+            "impulsivity-4": 2,
+            "impulsivity-5": 4,
+            "dominance-1": 3,
+            "dominance-2": 3,
+            "dominance-3": 2,
+            "dominance-4": 4,
+            "dominance-5": 2,
+            "cooperation-1": 4,
+            "cooperation-2": 2,
+            "cooperation-3": 3,
+            "cooperation-4": 3,
+            "cooperation-5": 3,
+            "risk-1": 5,
+            "risk-2": 1,
+            "risk-3": 5,
+            "risk-4": 1,
+            "risk-5": 4,
+            "flexibility-1": 3,
+            "flexibility-2": 3,
+            "flexibility-3": 3,
+            "flexibility-4": 3,
+            "flexibility-5": 2
+          }
+        },
+        {
+          "id": "daredevil",
+          "reachable": true,
+          "compatibility": 100,
+          "profile": {
+            "strategy": 80,
+            "empathy": 90,
+            "autonomy": 90,
+            "impulsivity": 60,
+            "dominance": 45,
+            "cooperation": 55,
+            "risk": 90,
+            "flexibility": 40
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 2,
+            "strategy-3": 4,
+            "strategy-4": 2,
+            "strategy-5": 4,
+            "empathy-1": 5,
+            "empathy-2": 1,
+            "empathy-3": 5,
+            "empathy-4": 2,
+            "empathy-5": 4,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "autonomy-3": 5,
+            "autonomy-4": 2,
+            "autonomy-5": 4,
+            "impulsivity-1": 4,
+            "impulsivity-2": 2,
+            "impulsivity-3": 3,
+            "impulsivity-4": 3,
+            "impulsivity-5": 3,
+            "dominance-1": 3,
+            "dominance-2": 3,
+            "dominance-3": 3,
+            "dominance-4": 3,
+            "dominance-5": 2,
+            "cooperation-1": 4,
+            "cooperation-2": 3,
+            "cooperation-3": 3,
+            "cooperation-4": 3,
+            "cooperation-5": 3,
+            "risk-1": 5,
+            "risk-2": 1,
+            "risk-3": 5,
+            "risk-4": 2,
+            "risk-5": 4,
+            "flexibility-1": 3,
+            "flexibility-2": 3,
+            "flexibility-3": 3,
+            "flexibility-4": 4,
+            "flexibility-5": 2
+          }
+        },
+        {
+          "id": "doctor-doom",
+          "reachable": true,
+          "compatibility": 99,
+          "profile": {
+            "strategy": 100,
+            "empathy": 20,
+            "autonomy": 100,
+            "impulsivity": 35,
+            "dominance": 100,
+            "cooperation": 25,
+            "risk": 70,
+            "flexibility": 55
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 1,
+            "strategy-3": 5,
+            "strategy-4": 1,
+            "strategy-5": 5,
+            "empathy-1": 2,
+            "empathy-2": 4,
+            "empathy-3": 2,
+            "empathy-4": 4,
+            "empathy-5": 1,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "autonomy-3": 5,
+            "autonomy-4": 1,
+            "autonomy-5": 5,
+            "impulsivity-1": 3,
+            "impulsivity-2": 3,
+            "impulsivity-3": 2,
+            "impulsivity-4": 4,
+            "impulsivity-5": 2,
+            "dominance-1": 5,
+            "dominance-2": 1,
+            "dominance-3": 5,
+            "dominance-4": 1,
+            "dominance-5": 5,
+            "cooperation-1": 2,
+            "cooperation-2": 4,
+            "cooperation-3": 2,
+            "cooperation-4": 4,
+            "cooperation-5": 2,
+            "risk-1": 4,
+            "risk-2": 2,
+            "risk-3": 4,
+            "risk-4": 2,
+            "risk-5": 3,
+            "flexibility-1": 4,
+            "flexibility-2": 3,
+            "flexibility-3": 3,
+            "flexibility-4": 3,
+            "flexibility-5": 3
+          }
+        },
+        {
+          "id": "thanos",
+          "reachable": true,
+          "compatibility": 100,
+          "profile": {
+            "strategy": 95,
+            "empathy": 10,
+            "autonomy": 95,
+            "impulsivity": 30,
+            "dominance": 95,
+            "cooperation": 15,
+            "risk": 90,
+            "flexibility": 35
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 1,
+            "strategy-3": 5,
+            "strategy-4": 1,
+            "strategy-5": 4,
+            "empathy-1": 2,
+            "empathy-2": 4,
+            "empathy-3": 1,
+            "empathy-4": 5,
+            "empathy-5": 1,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "autonomy-3": 5,
+            "autonomy-4": 1,
+            "autonomy-5": 4,
+            "impulsivity-1": 3,
+            "impulsivity-2": 4,
+            "impulsivity-3": 2,
+            "impulsivity-4": 4,
+            "impulsivity-5": 2,
+            "dominance-1": 5,
+            "dominance-2": 1,
+            "dominance-3": 5,
+            "dominance-4": 1,
+            "dominance-5": 4,
+            "cooperation-1": 2,
+            "cooperation-2": 4,
+            "cooperation-3": 2,
+            "cooperation-4": 5,
+            "cooperation-5": 1,
+            "risk-1": 5,
+            "risk-2": 1,
+            "risk-3": 5,
+            "risk-4": 2,
+            "risk-5": 4,
+            "flexibility-1": 3,
+            "flexibility-2": 3,
+            "flexibility-3": 2,
+            "flexibility-4": 4,
+            "flexibility-5": 2
+          }
+        },
+        {
+          "id": "ultron",
+          "reachable": true,
+          "compatibility": 100,
+          "profile": {
+            "strategy": 90,
+            "empathy": 5,
+            "autonomy": 95,
+            "impulsivity": 45,
+            "dominance": 100,
+            "cooperation": 10,
+            "risk": 80,
+            "flexibility": 65
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 1,
+            "strategy-3": 5,
+            "strategy-4": 2,
+            "strategy-5": 4,
+            "empathy-1": 2,
+            "empathy-2": 5,
+            "empathy-3": 1,
+            "empathy-4": 5,
+            "empathy-5": 1,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "autonomy-3": 5,
+            "autonomy-4": 1,
+            "autonomy-5": 4,
+            "impulsivity-1": 3,
+            "impulsivity-2": 3,
+            "impulsivity-3": 3,
+            "impulsivity-4": 3,
+            "impulsivity-5": 2,
+            "dominance-1": 5,
+            "dominance-2": 1,
+            "dominance-3": 5,
+            "dominance-4": 1,
+            "dominance-5": 5,
+            "cooperation-1": 2,
+            "cooperation-2": 4,
+            "cooperation-3": 1,
+            "cooperation-4": 5,
+            "cooperation-5": 1,
+            "risk-1": 5,
+            "risk-2": 2,
+            "risk-3": 4,
+            "risk-4": 2,
+            "risk-5": 4,
+            "flexibility-1": 4,
+            "flexibility-2": 2,
+            "flexibility-3": 4,
+            "flexibility-4": 3,
+            "flexibility-5": 3
+          }
+        },
+        {
+          "id": "loki",
+          "reachable": true,
+          "compatibility": 100,
+          "profile": {
+            "strategy": 90,
+            "empathy": 45,
+            "autonomy": 95,
+            "impulsivity": 55,
+            "dominance": 70,
+            "cooperation": 40,
+            "risk": 85,
+            "flexibility": 95
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 1,
+            "strategy-3": 5,
+            "strategy-4": 2,
+            "strategy-5": 4,
+            "empathy-1": 3,
+            "empathy-2": 3,
+            "empathy-3": 3,
+            "empathy-4": 3,
+            "empathy-5": 2,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "autonomy-3": 5,
+            "autonomy-4": 1,
+            "autonomy-5": 4,
+            "impulsivity-1": 4,
+            "impulsivity-2": 3,
+            "impulsivity-3": 3,
+            "impulsivity-4": 3,
+            "impulsivity-5": 3,
+            "dominance-1": 4,
+            "dominance-2": 2,
+            "dominance-3": 4,
+            "dominance-4": 2,
+            "dominance-5": 3,
+            "cooperation-1": 3,
+            "cooperation-2": 3,
+            "cooperation-3": 3,
+            "cooperation-4": 4,
+            "cooperation-5": 2,
+            "risk-1": 5,
+            "risk-2": 1,
+            "risk-3": 4,
+            "risk-4": 2,
+            "risk-5": 4,
+            "flexibility-1": 5,
+            "flexibility-2": 1,
+            "flexibility-3": 5,
+            "flexibility-4": 1,
+            "flexibility-5": 4
+          }
+        },
+        {
+          "id": "magneto",
+          "reachable": true,
+          "compatibility": 100,
+          "profile": {
+            "strategy": 90,
+            "empathy": 55,
+            "autonomy": 95,
+            "impulsivity": 55,
+            "dominance": 90,
+            "cooperation": 60,
+            "risk": 85,
+            "flexibility": 50
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 1,
+            "strategy-3": 5,
+            "strategy-4": 2,
+            "strategy-5": 4,
+            "empathy-1": 4,
+            "empathy-2": 3,
+            "empathy-3": 3,
+            "empathy-4": 3,
+            "empathy-5": 3,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "autonomy-3": 5,
+            "autonomy-4": 1,
+            "autonomy-5": 4,
+            "impulsivity-1": 4,
+            "impulsivity-2": 3,
+            "impulsivity-3": 3,
+            "impulsivity-4": 3,
+            "impulsivity-5": 3,
+            "dominance-1": 5,
+            "dominance-2": 1,
+            "dominance-3": 5,
+            "dominance-4": 2,
+            "dominance-5": 4,
+            "cooperation-1": 4,
+            "cooperation-2": 2,
+            "cooperation-3": 3,
+            "cooperation-4": 3,
+            "cooperation-5": 3,
+            "risk-1": 5,
+            "risk-2": 1,
+            "risk-3": 4,
+            "risk-4": 2,
+            "risk-5": 4,
+            "flexibility-1": 3,
+            "flexibility-2": 3,
+            "flexibility-3": 3,
+            "flexibility-4": 3,
+            "flexibility-5": 3
+          }
+        },
+        {
+          "id": "red-skull",
+          "reachable": true,
+          "compatibility": 100,
+          "profile": {
+            "strategy": 90,
+            "empathy": 0,
+            "autonomy": 90,
+            "impulsivity": 45,
+            "dominance": 100,
+            "cooperation": 15,
+            "risk": 65,
+            "flexibility": 20
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 1,
+            "strategy-3": 5,
+            "strategy-4": 2,
+            "strategy-5": 4,
+            "empathy-1": 1,
+            "empathy-2": 5,
+            "empathy-3": 1,
+            "empathy-4": 5,
+            "empathy-5": 1,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "autonomy-3": 5,
+            "autonomy-4": 2,
+            "autonomy-5": 4,
+            "impulsivity-1": 3,
+            "impulsivity-2": 3,
+            "impulsivity-3": 3,
+            "impulsivity-4": 3,
+            "impulsivity-5": 2,
+            "dominance-1": 5,
+            "dominance-2": 1,
+            "dominance-3": 5,
+            "dominance-4": 1,
+            "dominance-5": 5,
+            "cooperation-1": 2,
+            "cooperation-2": 4,
+            "cooperation-3": 2,
+            "cooperation-4": 5,
+            "cooperation-5": 1,
+            "risk-1": 4,
+            "risk-2": 2,
+            "risk-3": 4,
+            "risk-4": 3,
+            "risk-5": 3,
+            "flexibility-1": 2,
+            "flexibility-2": 4,
+            "flexibility-3": 2,
+            "flexibility-4": 4,
+            "flexibility-5": 1
+          }
+        },
+        {
+          "id": "green-goblin",
+          "reachable": true,
+          "compatibility": 100,
+          "profile": {
+            "strategy": 85,
+            "empathy": 10,
+            "autonomy": 90,
+            "impulsivity": 90,
+            "dominance": 95,
+            "cooperation": 20,
+            "risk": 95,
+            "flexibility": 60
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 1,
+            "strategy-3": 4,
+            "strategy-4": 2,
+            "strategy-5": 4,
+            "empathy-1": 2,
+            "empathy-2": 4,
+            "empathy-3": 1,
+            "empathy-4": 5,
+            "empathy-5": 1,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "autonomy-3": 5,
+            "autonomy-4": 2,
+            "autonomy-5": 4,
+            "impulsivity-1": 5,
+            "impulsivity-2": 1,
+            "impulsivity-3": 5,
+            "impulsivity-4": 2,
+            "impulsivity-5": 4,
+            "dominance-1": 5,
+            "dominance-2": 1,
+            "dominance-3": 5,
+            "dominance-4": 1,
+            "dominance-5": 4,
+            "cooperation-1": 2,
+            "cooperation-2": 4,
+            "cooperation-3": 2,
+            "cooperation-4": 4,
+            "cooperation-5": 1,
+            "risk-1": 5,
+            "risk-2": 1,
+            "risk-3": 5,
+            "risk-4": 1,
+            "risk-5": 4,
+            "flexibility-1": 4,
+            "flexibility-2": 2,
+            "flexibility-3": 3,
+            "flexibility-4": 3,
+            "flexibility-5": 3
+          }
+        },
+        {
+          "id": "kingpin",
+          "reachable": true,
+          "compatibility": 100,
+          "profile": {
+            "strategy": 95,
+            "empathy": 20,
+            "autonomy": 90,
+            "impulsivity": 25,
+            "dominance": 95,
+            "cooperation": 40,
+            "risk": 45,
+            "flexibility": 60
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 1,
+            "strategy-3": 5,
+            "strategy-4": 1,
+            "strategy-5": 4,
+            "empathy-1": 2,
+            "empathy-2": 4,
+            "empathy-3": 2,
+            "empathy-4": 4,
+            "empathy-5": 1,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "autonomy-3": 5,
+            "autonomy-4": 2,
+            "autonomy-5": 4,
+            "impulsivity-1": 2,
+            "impulsivity-2": 4,
+            "impulsivity-3": 2,
+            "impulsivity-4": 4,
+            "impulsivity-5": 2,
+            "dominance-1": 5,
+            "dominance-2": 1,
+            "dominance-3": 5,
+            "dominance-4": 1,
+            "dominance-5": 4,
+            "cooperation-1": 3,
+            "cooperation-2": 3,
+            "cooperation-3": 3,
+            "cooperation-4": 4,
+            "cooperation-5": 2,
+            "risk-1": 3,
+            "risk-2": 3,
+            "risk-3": 3,
+            "risk-4": 3,
+            "risk-5": 2,
+            "flexibility-1": 4,
+            "flexibility-2": 2,
+            "flexibility-3": 3,
+            "flexibility-4": 3,
+            "flexibility-5": 3
+          }
+        },
+        {
+          "id": "kang",
+          "reachable": true,
+          "compatibility": 99.29289321881345,
+          "profile": {
+            "strategy": 100,
+            "empathy": 15,
+            "autonomy": 95,
+            "impulsivity": 30,
+            "dominance": 95,
+            "cooperation": 25,
+            "risk": 90,
+            "flexibility": 80
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 1,
+            "strategy-3": 5,
+            "strategy-4": 1,
+            "strategy-5": 5,
+            "empathy-1": 2,
+            "empathy-2": 4,
+            "empathy-3": 2,
+            "empathy-4": 5,
+            "empathy-5": 1,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "autonomy-3": 5,
+            "autonomy-4": 1,
+            "autonomy-5": 4,
+            "impulsivity-1": 3,
+            "impulsivity-2": 4,
+            "impulsivity-3": 2,
+            "impulsivity-4": 4,
+            "impulsivity-5": 2,
+            "dominance-1": 5,
+            "dominance-2": 1,
+            "dominance-3": 5,
+            "dominance-4": 1,
+            "dominance-5": 4,
+            "cooperation-1": 2,
+            "cooperation-2": 4,
+            "cooperation-3": 2,
+            "cooperation-4": 4,
+            "cooperation-5": 2,
+            "risk-1": 5,
+            "risk-2": 1,
+            "risk-3": 5,
+            "risk-4": 2,
+            "risk-5": 4,
+            "flexibility-1": 5,
+            "flexibility-2": 2,
+            "flexibility-3": 4,
+            "flexibility-4": 2,
+            "flexibility-5": 4
+          }
+        },
+        {
+          "id": "hela",
+          "reachable": true,
+          "compatibility": 100,
+          "profile": {
+            "strategy": 85,
+            "empathy": 15,
+            "autonomy": 90,
+            "impulsivity": 30,
+            "dominance": 95,
+            "cooperation": 30,
+            "risk": 60,
+            "flexibility": 35
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 1,
+            "strategy-3": 4,
+            "strategy-4": 2,
+            "strategy-5": 4,
+            "empathy-1": 2,
+            "empathy-2": 4,
+            "empathy-3": 2,
+            "empathy-4": 5,
+            "empathy-5": 1,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "autonomy-3": 5,
+            "autonomy-4": 2,
+            "autonomy-5": 4,
+            "impulsivity-1": 3,
+            "impulsivity-2": 4,
+            "impulsivity-3": 2,
+            "impulsivity-4": 4,
+            "impulsivity-5": 2,
+            "dominance-1": 5,
+            "dominance-2": 1,
+            "dominance-3": 5,
+            "dominance-4": 1,
+            "dominance-5": 4,
+            "cooperation-1": 3,
+            "cooperation-2": 4,
+            "cooperation-3": 2,
+            "cooperation-4": 4,
+            "cooperation-5": 2,
+            "risk-1": 4,
+            "risk-2": 2,
+            "risk-3": 3,
+            "risk-4": 3,
+            "risk-5": 3,
+            "flexibility-1": 3,
+            "flexibility-2": 3,
+            "flexibility-3": 2,
+            "flexibility-4": 4,
+            "flexibility-5": 2
+          }
+        },
+        {
+          "id": "mysterio",
+          "reachable": true,
+          "compatibility": 100,
+          "profile": {
+            "strategy": 90,
+            "empathy": 20,
+            "autonomy": 80,
+            "impulsivity": 55,
+            "dominance": 75,
+            "cooperation": 35,
+            "risk": 65,
+            "flexibility": 90
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 1,
+            "strategy-3": 5,
+            "strategy-4": 2,
+            "strategy-5": 4,
+            "empathy-1": 2,
+            "empathy-2": 4,
+            "empathy-3": 2,
+            "empathy-4": 4,
+            "empathy-5": 1,
+            "autonomy-1": 5,
+            "autonomy-2": 2,
+            "autonomy-3": 4,
+            "autonomy-4": 2,
+            "autonomy-5": 4,
+            "impulsivity-1": 4,
+            "impulsivity-2": 3,
+            "impulsivity-3": 3,
+            "impulsivity-4": 3,
+            "impulsivity-5": 3,
+            "dominance-1": 4,
+            "dominance-2": 2,
+            "dominance-3": 4,
+            "dominance-4": 2,
+            "dominance-5": 4,
+            "cooperation-1": 3,
+            "cooperation-2": 3,
+            "cooperation-3": 2,
+            "cooperation-4": 4,
+            "cooperation-5": 2,
+            "risk-1": 4,
+            "risk-2": 2,
+            "risk-3": 4,
+            "risk-4": 3,
+            "risk-5": 3,
+            "flexibility-1": 5,
+            "flexibility-2": 1,
+            "flexibility-3": 5,
+            "flexibility-4": 2,
+            "flexibility-5": 4
+          }
+        },
+        {
+          "id": "killmonger",
+          "reachable": true,
+          "compatibility": 100,
+          "profile": {
+            "strategy": 90,
+            "empathy": 30,
+            "autonomy": 95,
+            "impulsivity": 65,
+            "dominance": 90,
+            "cooperation": 45,
+            "risk": 90,
+            "flexibility": 45
+          },
+          "answers": {
+            "strategy-1": 5,
+            "strategy-2": 1,
+            "strategy-3": 5,
+            "strategy-4": 2,
+            "strategy-5": 4,
+            "empathy-1": 3,
+            "empathy-2": 4,
+            "empathy-3": 2,
+            "empathy-4": 4,
+            "empathy-5": 2,
+            "autonomy-1": 5,
+            "autonomy-2": 1,
+            "autonomy-3": 5,
+            "autonomy-4": 1,
+            "autonomy-5": 4,
+            "impulsivity-1": 4,
+            "impulsivity-2": 2,
+            "impulsivity-3": 4,
+            "impulsivity-4": 3,
+            "impulsivity-5": 3,
+            "dominance-1": 5,
+            "dominance-2": 1,
+            "dominance-3": 5,
+            "dominance-4": 2,
+            "dominance-5": 4,
+            "cooperation-1": 3,
+            "cooperation-2": 3,
+            "cooperation-3": 3,
+            "cooperation-4": 3,
+            "cooperation-5": 2,
+            "risk-1": 5,
+            "risk-2": 1,
+            "risk-3": 5,
+            "risk-4": 2,
+            "risk-5": 4,
+            "flexibility-1": 3,
+            "flexibility-2": 3,
+            "flexibility-3": 3,
+            "flexibility-4": 3,
+            "flexibility-5": 2
+          }
+        }
+      ]
+    }
+  ],
+  "distributions": [
+    {
+      "mode": "quick",
+      "suite": "raw-halton",
+      "samples": 4096,
+      "shares": {
+        "iron-man": 31.5,
+        "captain-america": 118,
+        "spider-man": 83.5,
+        "thor": 290.5,
+        "hulk": 315.5,
+        "doctor-strange": 67,
+        "black-panther": 163,
+        "black-widow": 164,
+        "hawkeye": 34,
+        "scarlet-witch": 1179.5,
+        "wolverine": 177.5,
+        "daredevil": 193,
+        "doctor-doom": 0,
+        "thanos": 12,
+        "ultron": 2,
+        "loki": 23.5,
+        "magneto": 61.5,
+        "red-skull": 24,
+        "green-goblin": 16,
+        "kingpin": 167,
+        "kang": 6,
+        "hela": 406,
+        "mysterio": 518,
+        "killmonger": 43
+      }
+    },
+    {
+      "mode": "full",
+      "suite": "raw-halton",
+      "samples": 4096,
+      "shares": {
+        "iron-man": 26.5,
+        "captain-america": 31,
+        "spider-man": 12.5,
+        "thor": 216.83333333333331,
+        "hulk": 137,
+        "doctor-strange": 36.5,
+        "black-panther": 92.5,
+        "black-widow": 97,
+        "hawkeye": 2,
+        "scarlet-witch": 2177.3333333333335,
+        "wolverine": 139.83333333333331,
+        "daredevil": 119.5,
+        "doctor-doom": 0,
+        "thanos": 0,
+        "ultron": 0,
+        "loki": 7.5,
+        "magneto": 48.5,
+        "red-skull": 4,
+        "green-goblin": 0,
+        "kingpin": 134,
+        "kang": 0,
+        "hela": 313,
+        "mysterio": 478,
+        "killmonger": 22.5
+      }
+    },
+    {
+      "mode": "quick",
+      "suite": "profile-grid",
+      "samples": 6561,
+      "shares": {
+        "iron-man": 56.5,
+        "captain-america": 338.6666666666667,
+        "spider-man": 389.16666666666663,
+        "thor": 480,
+        "hulk": 791.5,
+        "doctor-strange": 143,
+        "black-panther": 320,
+        "black-widow": 328,
+        "hawkeye": 145.5,
+        "scarlet-witch": 730.1666666666667,
+        "wolverine": 269,
+        "daredevil": 324,
+        "doctor-doom": 5,
+        "thanos": 102.5,
+        "ultron": 28.5,
+        "loki": 74,
+        "magneto": 81.5,
+        "red-skull": 198,
+        "green-goblin": 118,
+        "kingpin": 360.5,
+        "kang": 49,
+        "hela": 497,
+        "mysterio": 643.5,
+        "killmonger": 88
+      }
+    },
+    {
+      "mode": "full",
+      "suite": "profile-grid",
+      "samples": 6561,
+      "shares": {
+        "iron-man": 56.5,
+        "captain-america": 338.6666666666667,
+        "spider-man": 389.16666666666663,
+        "thor": 480,
+        "hulk": 791.5,
+        "doctor-strange": 143,
+        "black-panther": 320,
+        "black-widow": 328,
+        "hawkeye": 145.5,
+        "scarlet-witch": 730.1666666666667,
+        "wolverine": 269,
+        "daredevil": 324,
+        "doctor-doom": 5,
+        "thanos": 102.5,
+        "ultron": 28.5,
+        "loki": 74,
+        "magneto": 81.5,
+        "red-skull": 198,
+        "green-goblin": 118,
+        "kingpin": 360.5,
+        "kang": 49,
+        "hela": 497,
+        "mysterio": 643.5,
+        "killmonger": 88
+      }
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "neutral",
+      "mode": "quick",
+      "profile": {
+        "strategy": 50,
+        "empathy": 50,
+        "autonomy": 50,
+        "impulsivity": 50,
+        "dominance": 50,
+        "cooperation": 50,
+        "risk": 50,
+        "flexibility": 50
+      },
+      "top3": [
+        {
+          "id": "scarlet-witch",
+          "compatibility": 77.92059783418038
+        },
+        {
+          "id": "thor",
+          "compatibility": 74.1397989180285
+        },
+        {
+          "id": "wolverine",
+          "compatibility": 73.19048676309097
+        }
+      ]
+    },
+    {
+      "id": "strategic",
+      "mode": "quick",
+      "profile": {
+        "strategy": 100,
+        "empathy": 50,
+        "autonomy": 87.5,
+        "impulsivity": 12.5,
+        "dominance": 75,
+        "cooperation": 50,
+        "risk": 62.5,
+        "flexibility": 75
+      },
+      "top3": [
+        {
+          "id": "doctor-strange",
+          "compatibility": 91.9474382957968
+        },
+        {
+          "id": "black-panther",
+          "compatibility": 84.51311038329517
+        },
+        {
+          "id": "kingpin",
+          "compatibility": 83.72597929213558
+        }
+      ]
+    },
+    {
+      "id": "compassionate",
+      "mode": "quick",
+      "profile": {
+        "strategy": 75,
+        "empathy": 100,
+        "autonomy": 75,
+        "impulsivity": 25,
+        "dominance": 25,
+        "cooperation": 100,
+        "risk": 62.5,
+        "flexibility": 75
+      },
+      "top3": [
+        {
+          "id": "captain-america",
+          "compatibility": 87.84861119048526
+        },
+        {
+          "id": "black-widow",
+          "compatibility": 81.35445763727962
+        },
+        {
+          "id": "hawkeye",
+          "compatibility": 81.18760382088449
+        }
+      ]
+    },
+    {
+      "id": "impulsive",
+      "mode": "quick",
+      "profile": {
+        "strategy": 25,
+        "empathy": 62.5,
+        "autonomy": 87.5,
+        "impulsivity": 100,
+        "dominance": 50,
+        "cooperation": 25,
+        "risk": 100,
+        "flexibility": 25
+      },
+      "top3": [
+        {
+          "id": "hulk",
+          "compatibility": 95.15877081724074
+        },
+        {
+          "id": "wolverine",
+          "compatibility": 77.81470081337645
+        },
+        {
+          "id": "thor",
+          "compatibility": 72.81429603633558
+        }
+      ]
+    },
+    {
+      "id": "authoritarian",
+      "mode": "quick",
+      "profile": {
+        "strategy": 87.5,
+        "empathy": 12.5,
+        "autonomy": 100,
+        "impulsivity": 25,
+        "dominance": 100,
+        "cooperation": 25,
+        "risk": 75,
+        "flexibility": 25
+      },
+      "top3": [
+        {
+          "id": "hela",
+          "compatibility": 91.99609470320894
+        },
+        {
+          "id": "thanos",
+          "compatibility": 91.61474508437578
+        },
+        {
+          "id": "red-skull",
+          "compatibility": 89.46731278352955
+        }
+      ]
+    },
+    {
+      "id": "cautious-collaborator",
+      "mode": "quick",
+      "profile": {
+        "strategy": 75,
+        "empathy": 75,
+        "autonomy": 25,
+        "impulsivity": 12.5,
+        "dominance": 12.5,
+        "cooperation": 87.5,
+        "risk": 12.5,
+        "flexibility": 62.5
+      },
+      "top3": [
+        {
+          "id": "captain-america",
+          "compatibility": 66.12292441783086
+        },
+        {
+          "id": "black-widow",
+          "compatibility": 65.25764472578176
+        },
+        {
+          "id": "black-panther",
+          "compatibility": 64.89969729475257
+        }
+      ]
+    },
+    {
+      "id": "independent-explorer",
+      "mode": "quick",
+      "profile": {
+        "strategy": 25,
+        "empathy": 50,
+        "autonomy": 100,
+        "impulsivity": 62.5,
+        "dominance": 25,
+        "cooperation": 25,
+        "risk": 100,
+        "flexibility": 100
+      },
+      "top3": [
+        {
+          "id": "scarlet-witch",
+          "compatibility": 71.92365319347975
+        },
+        {
+          "id": "wolverine",
+          "compatibility": 71.42717637334385
+        },
+        {
+          "id": "spider-man",
+          "compatibility": 70.8318452760549
+        }
+      ]
+    },
+    {
+      "id": "structured-coordinator",
+      "mode": "quick",
+      "profile": {
+        "strategy": 100,
+        "empathy": 75,
+        "autonomy": 62.5,
+        "impulsivity": 0,
+        "dominance": 37.5,
+        "cooperation": 100,
+        "risk": 25,
+        "flexibility": 37.5
+      },
+      "top3": [
+        {
+          "id": "captain-america",
+          "compatibility": 75.01562988586664
+        },
+        {
+          "id": "black-panther",
+          "compatibility": 74.89086321674917
+        },
+        {
+          "id": "black-widow",
+          "compatibility": 69.96096289825522
+        }
+      ]
+    },
+    {
+      "id": "reserved-specialist",
+      "mode": "quick",
+      "profile": {
+        "strategy": 87.5,
+        "empathy": 37.5,
+        "autonomy": 100,
+        "impulsivity": 12.5,
+        "dominance": 12.5,
+        "cooperation": 0,
+        "risk": 25,
+        "flexibility": 75
+      },
+      "top3": [
+        {
+          "id": "mysterio",
+          "compatibility": 65.58525025515948
+        },
+        {
+          "id": "kingpin",
+          "compatibility": 65.26889002637549
+        },
+        {
+          "id": "black-widow",
+          "compatibility": 64.20544734180912
+        }
+      ]
+    },
+    {
+      "id": "reactive-collaborator",
+      "mode": "quick",
+      "profile": {
+        "strategy": 25,
+        "empathy": 87.5,
+        "autonomy": 37.5,
+        "impulsivity": 87.5,
+        "dominance": 25,
+        "cooperation": 100,
+        "risk": 75,
+        "flexibility": 75
+      },
+      "top3": [
+        {
+          "id": "scarlet-witch",
+          "compatibility": 76.6313511302001
+        },
+        {
+          "id": "spider-man",
+          "compatibility": 75.6490503265273
+        },
+        {
+          "id": "hawkeye",
+          "compatibility": 75.58496876921924
+        }
+      ]
+    },
+    {
+      "id": "rigid-independent",
+      "mode": "quick",
+      "profile": {
+        "strategy": 87.5,
+        "empathy": 37.5,
+        "autonomy": 100,
+        "impulsivity": 25,
+        "dominance": 62.5,
+        "cooperation": 12.5,
+        "risk": 25,
+        "flexibility": 0
+      },
+      "top3": [
+        {
+          "id": "hela",
+          "compatibility": 76.4150471698585
+        },
+        {
+          "id": "red-skull",
+          "compatibility": 74.20029069931213
+        },
+        {
+          "id": "kingpin",
+          "compatibility": 71.9933043719899
+        }
+      ]
+    },
+    {
+      "id": "flexible-facilitator",
+      "mode": "quick",
+      "profile": {
+        "strategy": 62.5,
+        "empathy": 87.5,
+        "autonomy": 50,
+        "impulsivity": 37.5,
+        "dominance": 0,
+        "cooperation": 100,
+        "risk": 50,
+        "flexibility": 100
+      },
+      "top3": [
+        {
+          "id": "spider-man",
+          "compatibility": 78.36741462515403
+        },
+        {
+          "id": "hawkeye",
+          "compatibility": 76.23355832271056
+        },
+        {
+          "id": "black-widow",
+          "compatibility": 73.55725524836728
+        }
+      ]
+    },
+    {
+      "id": "neutral",
+      "mode": "full",
+      "profile": {
+        "strategy": 50,
+        "empathy": 50,
+        "autonomy": 50,
+        "impulsivity": 50,
+        "dominance": 50,
+        "cooperation": 50,
+        "risk": 50,
+        "flexibility": 50
+      },
+      "top3": [
+        {
+          "id": "scarlet-witch",
+          "compatibility": 77.92059783418038
+        },
+        {
+          "id": "thor",
+          "compatibility": 74.1397989180285
+        },
+        {
+          "id": "wolverine",
+          "compatibility": 73.19048676309097
+        }
+      ]
+    },
+    {
+      "id": "strategic",
+      "mode": "full",
+      "profile": {
+        "strategy": 100,
+        "empathy": 50,
+        "autonomy": 90,
+        "impulsivity": 10,
+        "dominance": 70,
+        "cooperation": 50,
+        "risk": 60,
+        "flexibility": 80
+      },
+      "top3": [
+        {
+          "id": "doctor-strange",
+          "compatibility": 91.16116523516816
+        },
+        {
+          "id": "black-panther",
+          "compatibility": 84.28774363752933
+        },
+        {
+          "id": "black-widow",
+          "compatibility": 82.58951465351984
+        }
+      ]
+    },
+    {
+      "id": "compassionate",
+      "mode": "full",
+      "profile": {
+        "strategy": 70,
+        "empathy": 100,
+        "autonomy": 70,
+        "impulsivity": 20,
+        "dominance": 20,
+        "cooperation": 100,
+        "risk": 60,
+        "flexibility": 70
+      },
+      "top3": [
+        {
+          "id": "captain-america",
+          "compatibility": 85.85786437626905
+        },
+        {
+          "id": "black-widow",
+          "compatibility": 79.00893047031667
+        },
+        {
+          "id": "hawkeye",
+          "compatibility": 78.86058184339029
+        }
+      ]
+    },
+    {
+      "id": "impulsive",
+      "mode": "full",
+      "profile": {
+        "strategy": 20,
+        "empathy": 60,
+        "autonomy": 90,
+        "impulsivity": 100,
+        "dominance": 50,
+        "cooperation": 30,
+        "risk": 100,
+        "flexibility": 30
+      },
+      "top3": [
+        {
+          "id": "hulk",
+          "compatibility": 96.04715292478953
+        },
+        {
+          "id": "wolverine",
+          "compatibility": 78.06258903151969
+        },
+        {
+          "id": "thor",
+          "compatibility": 73.66086561786815
+        }
+      ]
+    },
+    {
+      "id": "authoritarian",
+      "mode": "full",
+      "profile": {
+        "strategy": 90,
+        "empathy": 10,
+        "autonomy": 100,
+        "impulsivity": 30,
+        "dominance": 100,
+        "cooperation": 20,
+        "risk": 70,
+        "flexibility": 20
+      },
+      "top3": [
+        {
+          "id": "red-skull",
+          "compatibility": 92.29448249628878
+        },
+        {
+          "id": "hela",
+          "compatibility": 91.33974596215562
+        },
+        {
+          "id": "thanos",
+          "compatibility": 90.48028361767011
+        }
+      ]
+    },
+    {
+      "id": "cautious-collaborator",
+      "mode": "full",
+      "profile": {
+        "strategy": 80,
+        "empathy": 80,
+        "autonomy": 20,
+        "impulsivity": 10,
+        "dominance": 10,
+        "cooperation": 90,
+        "risk": 10,
+        "flexibility": 60
+      },
+      "top3": [
+        {
+          "id": "captain-america",
+          "compatibility": 64.46832399112026
+        },
+        {
+          "id": "black-panther",
+          "compatibility": 62.961169024927365
+        },
+        {
+          "id": "black-widow",
+          "compatibility": 62.876893987706254
+        }
+      ]
+    },
+    {
+      "id": "independent-explorer",
+      "mode": "full",
+      "profile": {
+        "strategy": 30,
+        "empathy": 50,
+        "autonomy": 100,
+        "impulsivity": 60,
+        "dominance": 20,
+        "cooperation": 20,
+        "risk": 100,
+        "flexibility": 100
+      },
+      "top3": [
+        {
+          "id": "scarlet-witch",
+          "compatibility": 71.06040774302444
+        },
+        {
+          "id": "wolverine",
+          "compatibility": 70.95262490344437
+        },
+        {
+          "id": "loki",
+          "compatibility": 70.7916963861302
+        }
+      ]
+    },
+    {
+      "id": "structured-coordinator",
+      "mode": "full",
+      "profile": {
+        "strategy": 100,
+        "empathy": 70,
+        "autonomy": 60,
+        "impulsivity": 0,
+        "dominance": 40,
+        "cooperation": 100,
+        "risk": 20,
+        "flexibility": 40
+      },
+      "top3": [
+        {
+          "id": "black-panther",
+          "compatibility": 74.32170176978232
+        },
+        {
+          "id": "captain-america",
+          "compatibility": 73.30730436992172
+        },
+        {
+          "id": "black-widow",
+          "compatibility": 69.33038963403675
+        }
+      ]
+    },
+    {
+      "id": "reserved-specialist",
+      "mode": "full",
+      "profile": {
+        "strategy": 90,
+        "empathy": 40,
+        "autonomy": 100,
+        "impulsivity": 10,
+        "dominance": 10,
+        "cooperation": 0,
+        "risk": 20,
+        "flexibility": 80
+      },
+      "top3": [
+        {
+          "id": "mysterio",
+          "compatibility": 63.94448724536011
+        },
+        {
+          "id": "kingpin",
+          "compatibility": 63.59945055359741
+        },
+        {
+          "id": "black-widow",
+          "compatibility": 63.38545371030798
+        }
+      ]
+    },
+    {
+      "id": "reactive-collaborator",
+      "mode": "full",
+      "profile": {
+        "strategy": 20,
+        "empathy": 90,
+        "autonomy": 40,
+        "impulsivity": 90,
+        "dominance": 20,
+        "cooperation": 100,
+        "risk": 80,
+        "flexibility": 80
+      },
+      "top3": [
+        {
+          "id": "scarlet-witch",
+          "compatibility": 75.25126265847084
+        },
+        {
+          "id": "spider-man",
+          "compatibility": 75.25126265847084
+        },
+        {
+          "id": "hawkeye",
+          "compatibility": 74.56626256328025
+        }
+      ]
+    },
+    {
+      "id": "rigid-independent",
+      "mode": "full",
+      "profile": {
+        "strategy": 90,
+        "empathy": 40,
+        "autonomy": 100,
+        "impulsivity": 20,
+        "dominance": 60,
+        "cooperation": 10,
+        "risk": 30,
+        "flexibility": 0
+      },
+      "top3": [
+        {
+          "id": "hela",
+          "compatibility": 76.0208423834364
+        },
+        {
+          "id": "red-skull",
+          "compatibility": 73.60160989757141
+        },
+        {
+          "id": "kingpin",
+          "compatibility": 71.49561437252154
+        }
+      ]
+    },
+    {
+      "id": "flexible-facilitator",
+      "mode": "full",
+      "profile": {
+        "strategy": 60,
+        "empathy": 90,
+        "autonomy": 50,
+        "impulsivity": 40,
+        "dominance": 0,
+        "cooperation": 100,
+        "risk": 50,
+        "flexibility": 100
+      },
+      "top3": [
+        {
+          "id": "spider-man",
+          "compatibility": 78.78679656440357
+        },
+        {
+          "id": "hawkeye",
+          "compatibility": 76.34889008946938
+        },
+        {
+          "id": "scarlet-witch",
+          "compatibility": 73.5424868893541
+        }
+      ]
+    }
+  ]
+}

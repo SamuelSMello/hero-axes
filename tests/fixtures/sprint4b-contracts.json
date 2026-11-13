@@ -1,0 +1,13 @@
+{
+  "src/domain/assessment.ts": "e42da8c1b22cb56a2000068ba3a2db4db105c2a8fd4cd98267aec2424cff968c",
+  "src/domain/axes.ts": "83a4a567c83c1cde2e52a4e9a6f23933f468e75f8a0e3c8997fe1744868e843b",
+  "src/domain/catalog.ts": "d3aa40c3ad9badddfef37487b65ebe51ca3544f33d814cc3a95df259e6da6006",
+  "src/domain/interpretation.ts": "62ae30492a249807a0298a57fa467fdf1236893c20e14f828602902e3e659b24",
+  "src/domain/questions.ts": "b29aac6dfe1283e4673cbeb8125fe81fb27b03c15eec5c004bd520f55d97c5a3",
+  "src/domain/result-diagnostics.ts": "e1d72a588f77964629f99b5879346109b36e44c4469bbc970dadf029bdf9bffa",
+  "src/domain/session.ts": "3835ea7de01642b4c8288447ef233c93ec9279356ad0548acaf63150736ef55d",
+  "src/domain/synthetic.ts": "90820da797ff219e1d7b13b83d2021e605b4e4c6802a2c385c1aeeb8934906b1",
+  "src/app/use-quiz-session.ts": "1a5017ebb275977e4b55ca14f541813e0ffbac434edfb21931682ba100fb4aba",
+  "package.json": "3fe90a1c0d0edb3f1941c2091b90a645106c845e2dd13f2b50be4254332d6cbd",
+  "package-lock.json": "2f7fff63ce03be09c1aca4fd26aaa37c8419a99b8b8f3ce1aba4d56734030378"
+}
